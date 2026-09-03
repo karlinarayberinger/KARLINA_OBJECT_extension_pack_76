@@ -1,0 +1,92 @@
+/**
+ * file: journal_karbytes_03september2026_p1.txt
+ * type: plain-text
+ * date: 03_SEPTEMBER_2026
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+To Whom It May Concern:
+
+Rather than append single letters of the English alphabet to the end of the names of WordPress dot Com web pages of KARBYTES (which have either the prefix journal_karbytes or else the prefix chatgpt_karbytes), I decided that I will use a different method of indexing "same-day" web pages (of the specified web page types).
+
+There are two reasons for that change:
+
+1. Some letters of the English alphabet (especially lower-case versions of those letters) such as I, L, and O are visibly difficult to distinguish from some numberic digits sich as 1 (i.e. one) and zero (i.e. 0) and/or from some other English alphabet characters (particularly lowercase I and lowecase L).
+
+2. There are only 26 letters of the English alphabet (which means that "same-day" pages of the same KARBYTES blog post type (i.e. chatgpt_karbytes or journal_karbytes) are limited to no more than 26 (which means that additional pages of such a set would carry over into the next calendar day in terms of web page naming)).
+
+The new KARBYTES web page naming convention (for chatgpt_karbytes or journal_karbytes type (WordPress dot Com (within the website named Karbytes For Life Blog dot WordPress dot Com)) web pages) entails appending the web page names with the (lowercase) letter A followed by a nonnegative (decimal) integer which corresponds with the respective web page's "source plain-text" file (and the corresponding plain-text file name entails appending the (lowercase) letter P followed by a nonnegative (decimal) integer).
+
+An example of this new KARBYTES file naming convention being implemented is the following plain-text file and WordPress dot Com web page pairing:
+
+[preformatted_text]
+
+// The WordPress dot Com web page name is the "object" name for this file "pairing" (although a third file URL is included in this "object" due to the fact that the respective KARBYTES micro-directory contains the HTML source file of that WordPress dot Com web page).
+
+let journal_karbytes_03september2026_a0 = {
+
+  { 
+
+    plain-text_file_url: 
+
+    https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/journal_karbytes_03september2026_p1.txt 
+
+   },
+
+  { 
+
+    wordpress_web_page_url: 
+
+    https://karbytesforlifeblog.wordpress.com/journal_karbytes_03september2026_a0/ 
+
+   },
+
+  { 
+
+    wordpress_web_page_HTML_source_code_file_url: 
+
+    https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/unlisted_web_page_journal_karbytes_03september2026_a0.html
+    
+   }
+
+}.
+
+[end preformatted_text]
+
+Notice that, in the example illustrated in the preformatted text box, that the P index number is not identical to the A index number (of the respective file pair). That is because the suffix p0 was already used for the plain-text file at the following Uniform Resource Locator:
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/journal_karbytes_03september2026_p0.txt
+
+The plain-text file whose URL is displayed above does not have a corresponding WordPress dot Com page because that plain-text file is not considered by karbytes to be suitable for being turned into a blog post (i.e. a KARBYTES web page which is shared on at least one of karbytes' social media profiles) because that plain-text file merely stores a list of temporary URLs for draft files which were initially staged in the public GitHub repository named projects on the account whose username is @informationcrystals. Those files are eventually moved out of that staging GitHub repository (which is considered by karbytes to be external to KARBYTES) and subsequently into the public GitHub repository named KARLINA_OBJECT_extension_pack_76 on the account whose username is @karlinarayberinger. 
+
+(The GitHub account whose username is @karlinarayberinger is considered by karbytes to be the one and only official GitHub account of KARBYTES (although the GitHub account whose username is @karbytessupporter forks micro-directory GitHub repositories owned by @karlinarayberinger and keeps those forked GitHub repositories (on @karbytessupporter's end) synced up with the source GitHub repository (after each relevant canon KARBYTES update is complete))).
+
+(Essentially, the three GitHub accounts whose usernames are either @karlinarayberinger or else @karbytessupporter or else @informationcrystals belong exclusively to karbytes and are arguably essential components of KARBYTES' substantiating infrastructure).
+
+1. official_KARBYTES_github_account: https://github.com/karlinarayberinger/
+
+- name: karbytes
+
+- tagline: creativity and the cosmos
+
+- website: https://karlinaobject.wordpress.com/
+
+2. heavy-weight_auxiliary_KARBYTES_github_account: https://github.com/karbytessupporter/
+
+- name: karbytessupporter
+
+- tagline: I exist to support the development and preservation of karbytes' intellectual property.
+
+- website: https://karlinaobject.wordpress.com/
+
+3. light-weight_auxiliary_KARBYTES_github_account: https://github.com/informationcrystals/
+
+- name: informationcrystals
+
+- tagline: [none]
+
+- website: [none]
+
+Sincerely,
+karbytes
