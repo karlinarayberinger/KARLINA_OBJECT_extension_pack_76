@@ -51,3 +51,1464 @@ I also separately analyzed the malformed `nodex[x]` p9 entry between nodes 828 a
 [Download the 23,752-word analysis and transcript report](sandbox:/workspace/scratch/e9f30cf5a74d/node_794_to_846_analysis.md)
 
 [chatgpt_generated_output: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/chatgpt_generated_report_on_03september2026_node_794_to_846_analysis.md]
+
+* * *
+
+What follows is the unabridged karbytes-curated plain-text content from the file named chatgpt_generated_report_on_03september2026_node_794_to_846_analysis.md.
+
+* * *
+
+# FIRST_OFFICIAL_MAJOR_KARBYTES_HIATUS_SUMMER_2026_OBJECT
+
+## Detailed audit of node[794] through node[846]
+
+**Source list:** [FIRST_OFFICIAL_MAJOR_KARBYTES_HIATUS_SUMMER_2026_OBJECT](https://karbytesforlifeblog.wordpress.com/first_official_major_karbytes_hiatus_summer_2026_object/)
+
+**Audit date:** 03 September 2026 (UTC)
+
+### Scope, method, and indexing caveat
+
+I resolved every numbered entry from `node[794]` through `node[846]` inclusive: 53 official nodes comprising 22 video nodes, four stand-alone image nodes, and 27 text/HTML/WordPress nodes. I also found one physically interposed but malformed entry labelled `nodex[x]` between `node[828]` and `node[829]`. That entry links `karbytes_thinking_11august2026_p9.mp4`. I analyze it separately below because silently treating it as `node[829]` would shift every later official index and misreport the source.
+
+For the video work I downloaded all 23 linked MP4 files (the 22 numbered videos plus the malformed p9 entry). I decoded each complete H.264 video stream and AAC audio stream from beginning to end, in presentation order, with no decode failure. I examined densely timestamped contact sheets made by processing the entire video stream and inspected scene changes and representative frames at short intervals. I processed each full audio track with speech recognition and compared the result against the creator-curated TurboScribe transcript embedded in `journal_karbytes_14august2026_p1.txt`; the appendix preserves that complete, public-domain transcript corpus. The descriptions below integrate image, motion, ambient sound, speech, and delivery.
+
+I do not literally possess a human sensorium. “Viewed/listened” here therefore means complete sequential machine decoding plus visual inspection and full-track speech/audio analysis—the closest auditable approximation available to me, not a claim of human-style consciousness.
+
+The material contains historical first-person suicidal ideation, descriptions of psychiatric distress and alleged harassment, profanity, and discriminatory generalizations. I report these as statements made in the archive, not as verified external facts or endorsements. The long-form transcript is retained because the request specifically asks for detected speech and the source declares it public domain.
+
+### Video technical inventory
+
+[preformatted_text]
+
+| Source position | File | Duration | Frame size | Visual condition |
+|---|---|---:|---:|---|
+| node[810] | `karbytes_thinking_11august2026_p0.mp4` | 1:58.608 | 214×380 | Daylight, vertical, walking |
+| node[811] | `..._p1.mp4` | 2:44.498 | 184×328 | Daylight, vertical, walking |
+| node[813] | `..._p2.mp4` | 4:23.566 | 156×276 | Daylight, vertical, woodland |
+| node[814] | `..._p3.mp4` | 2:57.744 | 178×318 | Daylight, vertical, woodland |
+| node[817] | `..._p4.mp4` | 3:12.220 | 172×308 | Daylight, vertical, forest to fire road |
+| node[824] | `..._p5.mp4` | 10:36.351 | 102×180 | Very low-resolution vertical trail footage |
+| node[826] | `..._p6.mp4` | 9:43.081 | 102×180 | Very low-resolution vertical trail footage |
+| node[827] | `..._p7.mp4` | 11:31.773 | 102×180 | Very low-resolution vertical woodland footage |
+| node[828] | `..._p8.mp4` | 1:00.705 | 314×558 | Daylight, vertical, stationary woodland view |
+| malformed `nodex[x]` | `..._p9.mp4` | 14:55.110 | 102×180 | Very low-resolution, seated/reclined woodland view |
+| node[829] | `..._p10.mp4` | 10:16.436 | 102×180 | Very low-resolution, walking then stationary |
+| node[833] | `..._p11.mp4` | 2:25.814 | 194×344 | Bright open grassland/fire road |
+| node[834] | `..._p12.mp4` | 1:33.101 | 242×432 | Bright dirt road and gesturing shadow |
+| node[835] | `..._p13.mp4` | 1:00.022 | 558×314 | Landscape orientation; fixed peak view |
+| node[836] | `..._p14.mp4` | 1:03.466 | 544×306 | Landscape; creek close-up then grove |
+| node[837] | `..._p15.mp4` | 0:41.200 | 726×408 | Landscape; hillside/turkeys/road |
+| node[838] | `..._p16.mp4` | 3:31.427 | 296×166 | Landscape; uphill road near sunset |
+| node[840] | `..._p17.mp4` | 0:54.150 | 604×340 | Landscape; dusk road, brief upside-down selfie |
+| node[841] | `..._p18.mp4` | 8:22.076 | 350×196 | Landscape; almost totally dark |
+| node[842] | `karbytes_thinking_12august2026_p0.mp4` | 2:17.508 | 426×760 | Vertical; near-total darkness |
+| node[843] | `..._p1.mp4` | 6:16.287 | 232×412 | Vertical; near-total darkness |
+| node[844] | `..._p2.mp4` | 0:32.302 | 1920×1080 | Landscape; near-total darkness |
+| node[845] | `..._p3.mp4` | 0:53.873 | 600×338 | Dawn; trail, blackberry bramble, hand |
+
+[end preformatted_text]
+
+Total running time is **1:42:51.319** (6,171.319 seconds). Except for p17’s fleeting upside-down selfie and occasional hands, feet, legs, or shadow, these are outward- or downward-facing first-person phone recordings rather than face-to-camera performances.
+
+### Overall audiovisual impression and voice
+
+The series moves through a distinct sensory arc: irritated roadside walking; shaded, leaf-littered trail; long low-resolution monologues in the “Big Green Thing”; emergence into gold grass and panoramic late-day ridges; twilight; nearly black all-night walking; and finally gray dawn and a ripe blackberry. That arc matters more than the sparse cinematography. The early camera is restless and pointed at pavement or trail. The middle becomes contemplatively repetitive—feet, leaves, shade, and sun patches—while p9 turns nearly static, matching its abstract metaphysics. The open-country clips widen into landscape orientation and show horizon, ridges, creek, turkeys, and the declining sun. The nighttime images remove almost all visual information, leaving voice, breath, movement noise, fear, fatigue, and faint sensor-purple darkness as the experience. The last clip restores legible space and color.
+
+One adult speaker is audible throughout; I detected no second speaking voice. The voice is close-miked, mid-to-low in pitch, forward and slightly nasal in resonance, with a dry, unpolished phone-recording timbre. Loudness is normally moderate and intelligible but varies with phone angle, walking noise, breath, and outdoor air. Rhythm is extemporaneous: long clause chains, frequent restarts, filled pauses, qualification, and abrupt topic pivots. Early delivery is tense, clipped, and irritated. The long woodland sections become slower, discursive, and inwardly focused, with profanity receiving extra stress. The open-ridge clips brighten and become more demonstrative. By p17/p18 the pace and energy sag with fatigue. In the darkest 12 August clip the voice intermittently sharpens into deliberately loud, monosyllabic deterrent calls (“Blat!”) before returning to tired, worried narration. P2 is low and depleted; p3 is quiet, relieved, and gently curious.
+
+## Node-by-node analysis
+
+### node[794] — generated yellow-water-ripples image
+
+[Direct image](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_45/main/chatgpt_generated_image_yellow_water_ripples_black_background_01july2025.png)
+
+A square, minimalist synthetic image places luminous amber-orange ripples on a nearly absolute black field. The active water occupies roughly the lower third, and the highlight pattern forms nested elliptical rings around a dark central depression or aperture. Thin gold lines glint across the surface while most of the frame refuses detail. The combination reads simultaneously as water, an eye/iris, a gravitational well, a portal, and a disturbance propagating through void. Its formal economy anticipates the archive’s own logic: a bounded, visible signal inside a much larger featureless outside.
+
+### node[795] — `chatgpt_karbytes_14august2026_p0.txt`
+
+[Plain-text source](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/chatgpt_karbytes_14august2026_p0.txt)
+
+This is a long ChatGPT transcript with two main jobs. First it performs a close reading of the archive-workflow diagram: `surface_web` contains the public WordPress/account layer and extension-pack box; `@informationcrystals` is a bounded staging region within it; `deep_web` is a separate black region containing a private-repository placeholder; and magenta arrows describe transfers toward public projects and the extension pack. Karbytes then corrects two interpretive excesses. The black field is not a dramatic metaphysical destination but the ubiquitous featureless surround of the diagram; and “move” is operationally copy-then-delete, not a mystical one-way transformation.
+
+Second, the transcript becomes a recursive link-audit session. It records a four-level traversal request, a timeout/interruption, recovery, and a comprehensive resumed report. This makes the node partly analysis and partly provenance log: it preserves not only findings but the failure and restart conditions of the analytic process. Its larger conceptual function is to translate an image of publication logistics into executable crawl behavior.
+
+### node[796] — `chatgpt_karbytes_14august2026_a`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_14august2026_a/)
+
+This is the canonical web wrapper for node[795]. It uses the blog’s severe black-background, monospaced presentation and places the glowing-ripple image from node[794] at the top. Hyperlinks make the transcript’s workflow and traversal references operational rather than merely quoted. The page therefore fuses three layers: emblematic “signal in void” imagery, a dialogue that corrects the assistant’s interpretation, and a live interface into the archive it discusses.
+
+The page also contains a glossy, surreal “karbytes is stuck” composition: a black-shirted figure with hands near a huge green-rimmed, star-filled vase/bubble, wearing a cube-like helmet with a red visor, against black. Red text states “karbytes is stuck.” The image literalizes enclosure and constrained agency while retaining cosmic scale inside the container.
+
+### node[797] — recursive-cube image
+
+[Direct image](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/chatgpt_generated_image_recursive_cube_14august2026.png)
+
+A centered isometric recursion floats in a star field: a large transparent gray cube encloses a warm amber translucent cube, which encloses an opaque black cube filled with stars. Strong bilateral and diagonal symmetry makes the structure feel diagrammatic and monumental. Transparency makes containment visible, but the innermost “solid” also appears spatially infinite because it contains cosmos. The paradox—finite box, infinite interior—is an exact visual analogue for the archive’s nested pages, extension packs, repos, and recursive traversal reports.
+
+### node[798] — `chatgpt_karbytes_14august2026_p2.txt`
+
+[Plain-text source](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/chatgpt_karbytes_14august2026_p2.txt)
+
+This transcript defines a `DO_NOT_VISIT` set and substitution rules, then orders a four-level crawl beginning from node[796]. The returned accounting reports 51 link occurrences at the first expansion, 23 at STEP 2, 241 at STEP 3, and 1,788 at STEP 4; 1,809 unique allowed URLs were fetched or attempted, 970 forbidden occurrences were encountered, and seven substitutions were applied. The dialogue identifies the updated `karbytes_is_stuck_in_the_big_green_thing` page/image as the definitive upright-figure/cyan-torus version and then asks for a fourteen-page macro-synthesis.
+
+The important feature is procedural self-limitation. The crawl is not a fantasy of total access; it is shaped by an explicit forbidden set, substitutions, duplicates, unavailable endpoints, and audit counts. The node turns recursive curiosity into a reproducible protocol and prepares the two HTML artifacts that follow.
+
+### node[799] — raw recursive traversal report
+
+[Raw HTML](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/recursive_web_traversal_report.html)
+
+This large, self-contained dark-mode report is an audit artifact rather than an ordinary essay. Near-black panels, an orange title, cyan/green headings, compact pills, tables, cards, and collapsible detail records organize the crawl. It opens with STEP-1 orientation and crawl totals, identifies the principal updated “karbytes is stuck” page, records successful recovery routes, and then enumerates the allowed URL records with status, MIME type, byte size, synopsis, anchor text, and provenance path.
+
+Its conceptual content is reflexive: an archive is made to inspect itself through a machine-generated map, and that map becomes another object inside the same archive. The report’s strongest claim concerns the revised “stuck” image—upright figure, cyan torus at the abdomen, cube helmet/red visor, green contour, red title—because a supposedly static canonical object has changed and the crawl is being used to establish which version is authoritative.
+
+### node[800] — hosted traversal report
+
+[Hosted report](https://karlinarayberinger.github.io/KARLINA_OBJECT_extension_pack_73/)
+
+This is the browser-hosted publication of node[799]. The downloaded bytes were exactly identical to the raw HTML (same SHA-256 in my local audit), so its substantive content, styling, and record inventory do not differ. Its separate role is deployment: node[799] is repository content; node[800] demonstrates that the same artifact executes as a public GitHub Pages site.
+
+### node[801] — raw fourteen-page mythos report
+
+[Raw HTML](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_hiatus_mythos_report.html)
+
+An approximately 13,000-word designed essay titled **“From Trail Corridor to Canonical Aperture.”** Its visual system is cosmic/technical: dark green-black ground, cyan and green accents, a fixed traversal-map table of contents, responsive cards and image grids, substantial tables, and a print stylesheet. Fourteen source pages are arranged by transformation rather than clock time.
+
+The central sequence is: physical traversal → sensory capture → private incubation → dialogic analysis → public staging → canonical publication → recursive traversal → new canonical publication. The report argues in stages that connectivity is earned through bodily travel; experience acquires an interior; immobility receives an address and body; and myth becomes an executable publishing machine. Its most useful thesis is that movement becomes durable because derivative states—files, backups, staged pages, crawl records—are permitted to remain still while later processes act upon them.
+
+### node[802] — hosted fourteen-page mythos report
+
+[Hosted report](https://karlinarayberinger.github.io/KARLINA_OBJECT_extension_pack_73/karbytes_hiatus_mythos_report.html)
+
+This is byte-for-byte the same document as node[801], served through GitHub Pages. As with nodes 799/800, the duplicate is meaningful as a repository/publication pair: source artifact and publicly executed artifact are separately addressable nodes even though their payload is identical.
+
+### node[803] — `chatgpt_karbytes_14august2026_b`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_14august2026_b/)
+
+The canonical wrapper for node[798] uses the recursive-cube image as its lead emblem and links both generated reports. Visually and structurally, it converts a long procedural conversation into a hub: cube-as-recursion at the top, crawl methodology in the body, and two executable HTML outcomes at the end. The page thus marks the transition from dialogue about an archive to new archive objects produced by that dialogue.
+
+### node[804] — `chatgpt_karbytes_10august2026_p0.txt`
+
+[Plain-text source](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/chatgpt_karbytes_10august2026_p0.txt)
+
+This 10,000-plus-word transcript contains three detailed analyses of Kafir music videos: **“Becoming a Knife,” “I Am Kafir,”** and **“An Act of Defiance Against What Is Pure.”** These are analyses *inside the text node*; node[804] itself is not one of the hiking videos.
+
+The first analysis follows a masked figure, skull effigy, knife, book, heart, ruins, forest, and repeated holes. Supplied lyrics about emotional coldness and self-weaponization are linked to inverted beatitudes, mirrors/poison, an unfillable void, and a pursuit of supersaturated extremes. The second enumerates literal events, two primary locations, cinematography, editing, book symbolism, and soundtrack, then compares that work with the first. The third tracks on-screen text and a hooded/burlap/bandaged persona alongside a pig skull, white bird, and Qur’an, interpreting purity, defiance, and punishment while also evaluating production design and sound.
+
+Across all three, the assistant treats editing rhythm, sonic texture, props, masks, and landscape as one symbolic system. In the surrounding hiatus sequence this becomes a methodological precursor: the same maximal, frame-attentive audiovisual reading requested of external art is later turned onto karbytes’ own trail recordings.
+
+### node[805] — `ramage_peak_trail_19june2026_p24.jpg`
+
+[Direct image](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_71/main/ramage_peak_trail_19june2026_p24.jpg)
+
+A wide sunset landscape gives most of the frame to a heavy gray sky. The sun sits low near the horizon and throws warm rays and lens flare over dry rolling ridges and darker green ravines. Foreground brush and grass are nearly silhouetted; distant land alternates ocher and muted green. The picture is neither idyllic nor catastrophic: cloud weight and golden opening coexist. As a motif it previews the videos’ progression from hot exposed trail toward darkness and gives “Ramage Peak” a visually specific atmosphere rather than leaving it as a name.
+
+### node[806] — `journal_karbytes_14august2026_p2.txt`
+
+[Plain-text source](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/journal_karbytes_14august2026_p2.txt)
+
+A compact 375-word staging document whose main payload is `EPIC_KARBYTES_HIATUS_SUMMER_2026_NODES_LIST`, spanning internal indices `node[-39]` through `node[24]`. The list explicitly rejects date order and last-updated order in favor of a story chosen by karbytes. That statement is crucial: sequencing is declared to be interpretive authorship. The list draws June–August 2026 journals and ChatGPT pages into a mythic path that culminates in the two 14 August ChatGPT pages represented by nodes[796] and [803].
+
+### node[807] — `journal_karbytes_15august2026_a`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/journal_karbytes_15august2026_a/)
+
+This publishes node[806] with live hyperlinks and a five-image montage. The sequence is carefully suggestive: the Ramage Peak sunset; a Devils Hole scene with pale moon above a dark crag and dry chaparral gullies; a recursive Ubuntu/Tor-browser screenshot playing a seven-second woodland-trail clip; a dim amber interior in which a laptop is crowded by a red-black cocoon/chair-like form; and a dense synthetic **First Official Major Hiatus** poster containing a cosmic cube, galaxies, meditating figure, network graph, terminal icon, trees, values-scroll, wolf/skull, M_DISC references, books, laptop, tent, and torus.
+
+The montage moves from terrain to nocturnal threshold, mediated browser/deep-web view, constrained body/workstation, and finally totalizing mythic diagram. The poster is deliberately maximalist and scrapbook-like, counterbalancing node[806]’s austere ordered list.
+
+### node[808] — `journal_karbytes_14august2026_p1.txt`
+
+[Plain-text source](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/journal_karbytes_14august2026_p1.txt)
+
+This is the archive’s transcription master, titled `KARBYTES_VIDEO_TRANSCRIPTIONS_13AUGUST2026`. It first repeats the mythically ordered nodes list, then supplies names, URLs, contextual links/images, and karbytes-curated TurboScribe transcriptions for all 23 hiking videos. It is simultaneously transcript, index, and interpretation scaffold. Because it binds every clip to earlier pages, the spoken trek is not presented as isolated documentary footage; it is made to function as commentary on older autobiographical and philosophical nodes. The complete text is preserved at the end of this report as the transcription appendix.
+
+### node[809] — `chatgpt_karbytes_10august2026_p1.txt`
+
+[Plain-text source](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/chatgpt_karbytes_10august2026_p1.txt)
+
+This very long transcript supplies the immediate planning and psychological context for the videos. It begins in “The Burrow” with ten M_DISC burns—six refinement copies of one archive, two nexus copies, and two origins copies—plus Wayback saves and verification of a private Fifth Dark Hiatus repository. An assistant audits a ZIP snapshot and finds an early-state archive with two inconsistencies/placeholders and script issues. The discussion then plans the demanding walk from the Burrow along Redwood Road through Chabot/Ramage Peak toward Rocky Ridge and possibly Eagle Peak, with an overnight or dark return.
+
+Other major threads are the decision to keep contentious hiatus material private/deep-web at first; “blackening” as listening to or performing black metal on drums, guitar, and voice; the all-permeating void beyond genre; and the “Big Green Thing” walk as commemoration of extension pack 72. A sleep-deprived dream of thrown objects, oppressed women, a fishbowl, and a stuck head prompts interpretations about surveillance, control, erotic charge, and the recurring box/container motif. Later turns debate the evolution of karbytes’ erotic self-objectification, urgency to publish because of mortality or animal danger, private incubation versus canon, and a plain-text/source-code-only archival challenge.
+
+The result is a pressure map for the hike: backup ritual, publication anxiety, economic uncertainty, sleep loss, possible danger, metaphysical ambition, and a self-imposed austerity rule that the subsequent video-heavy record immediately complicates.
+
+### node[810] — video: `karbytes_thinking_11august2026_p0.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p0.mp4)
+
+**What is seen.** The phone is held vertically and mostly aimed down and forward at a paved roadside. A white edge line and, at moments, the double yellow center marking establish Redwood Road; tree shadows dapple gray asphalt. The picture bobs and rolls with walking, sometimes tilting toward the shoulder. No sustained face view occurs. Other people are mentioned but are not presented as identifiable on-screen subjects.
+
+**What is heard and said.** A single close voice speaks over road/outdoor ambience, footfall rhythm, and light handling noise. The speaker begins by noting 42 minutes of recording capacity, says the material is not planned for the canonical KARBYTES archive, and breaks off because nearby people make recording feel socially prohibited. The monologue then names a bad day, the self-imposed rule of walking rather than driving to the trailhead, the feeling that almost nobody cares about the speaker’s well-being, and uncertainty about attending a low-paid pre-hire appointment the next day. The job is framed as a possible exchange of sleep and morning autonomy for limited extra money; the decision is left open.
+
+**Voice.** Moderate volume, mid-low pitch, and a tight, irritated timbre. Sentences begin deliberately but fracture when attention shifts to nearby people. Pauses and restarts are not theatrical; they sound like real-time vigilance. The cadence settles somewhat when discussing the appointment but remains burdened and doubtful. Full wording appears under `video_0_transcription` in the appendix.
+
+### node[811] — video: `karbytes_thinking_11august2026_p1.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p1.mp4)
+
+**What is seen.** Still vertical and downward-facing, the camera follows a dusty, leaf-scattered pedestrian margin/path. Patches of hard sun alternate with shadow; the speaker’s elongated body/camera shadow and an occasional foot enter at the bottom. Near the end, the surface approaches a signpost or gate-adjacent gravel/paved patch. Movement is continuous and visibly synchronized with the speech’s walking pace.
+
+**What is heard and said.** The speaker announces a decision to attend the appointment before even reaching the trailhead. A news story about a young person who says they should not have to work because they did not choose to be born becomes a springboard for practical reasoning: continued existence still requires food and upkeep, whether through donations, farming, foraging, or a commune. Rather than rebuild life from scratch, the speaker prefers earning money inside the existing capitalist system. The prospective job is called “scammy” and unglamorous but also legal, low-barrier, and less destructive than other work. The closing argument rejects the idea that earning money must require forfeiting happiness.
+
+**Voice.** More resolved than p0: similar pitch/timbre, but firmer onset, fewer distracted breaks, and a forward argumentative rhythm. The repeated “rather” and “but” constructions create an audible weighing of alternatives. Full wording: appendix `video_1_transcription`.
+
+### node[812] — 2024 voter-ballot photograph
+
+[Direct image](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_24/main/voter_ballot_of_karbytes_2nd_ballot_24oct2024_p1.jpg)
+
+An overhead phone photograph shows an Alameda County Official Ballot for the 5 November 2024 general election lying on a wrinkled blue tarp/fabric. The visible presidential contest is bilingual English/Spanish and includes optical timing marks, candidate/party text, and fill-in ovals. The oval beside Jill Stein/Rudolph Ware and the Green Party is filled; neighboring candidate ovals appear empty. The materiality is important: this is not a political logo or abstract endorsement graphic but a marked administrative paper photographed in an improvised outdoor-looking setting. In the list it interrupts personal speech with a concrete trace of civic participation and supplies context for node[813]’s explicit reference to the Green Party ballot.
+
+### node[813] — video: `karbytes_thinking_11august2026_p2.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p2.mp4)
+
+**What is seen.** The entire clip proceeds along a narrow, winding woodland trail. The phone stays low and forward: dry leaves, ivy-like ground cover, roots, thin trunks, and dense green-brown understory pass through alternating deep shade and blown sunlight. Camera bob and motion blur convey brisk walking. No other person or police officer becomes a clear visual subject.
+
+**What is heard and said.** The speaker says they have avoided a police officer near Chabot because of uncertainty about whether a trail-use permit is required, then expands the incident into frustration with administrative and interpersonal obstacles. Nearby people are described as intrusive or harassing. Gas-guzzling vehicles become a broader environmental complaint: the speaker contrasts personal walking with machines that consume fuel and contribute to planetary damage. Because the claims about other people’s intent cannot be verified from the footage, they are best understood as the speaker’s perception under stress, not an objective account established by the image.
+
+**Voice.** Audible walking effort roughens the breath and slightly compresses phrase endings. Loudness is moderate with sharper emphasis on “cop,” “permit,” harassment, and vehicle/environmental criticism. The rhythm is agitated and cumulative, repeatedly adding another obstruction to a growing list. Full wording: appendix `video_2_transcription`.
+
+### node[814] — video: `karbytes_thinking_11august2026_p3.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p3.mp4)
+
+**What is seen.** Another continuous woodland passage, visually similar to p2 but slightly brighter at intervals. The trail bends through leaf litter and low vegetation. The camera’s downward pitch frequently makes the immediate ground the whole composition; the body shadow appears in bright openings. There are no edits or staged inserts—the image’s monotony is the physical duration of walking.
+
+**What is heard and said.** The speaker considers the social demand to look pleasant and “light” rather than troubled, then identifies a contradiction: people are also said to dislike the speaker’s genuine good mood. This produces the conclusion that observers want a narrow band of trivial, socially acceptable stress. The monologue then turns to forced mind-suppressing medication and says the speaker has been “psychically” killed and is “on the run.” Those phrases communicate subjective persecution and loss of agency; the trail’s forward motion gives the metaphor a literal visual counterpart without independently validating the alleged persecution.
+
+**Voice.** More reflective than p2 but still guarded. Pitch remains mid-low; long clauses are delivered evenly, then emotionally charged terms receive slower, heavier stress. Outdoor movement noise and breath remain underneath. Full wording: appendix `video_3_transcription`.
+
+### node[815] — `journal_karbytes_14august2026_p0.txt`
+
+[Plain-text source](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/journal_karbytes_14august2026_p0.txt)
+
+This is a staging manifest. After a temporary-file URL and separator, it inventories the materials assembled for extension pack 73: two Burrow videos, interior photographs, the recursive traversal and mythos HTML reports, ChatGPT and journal transcripts, the workflow diagram, abdomen/belly photographs, variants of the “karbytes is stuck” image, a mechanical-bull video, and the full Big Green Thing trail-video sequence. Its informational value is forensic. It shows the project before presentation has hidden the construction process: heterogeneous inputs, media formats, and report outputs gathered into one publication unit.
+
+### node[816] — `karbytes_05_august_2024`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/karbytes_05_august_2024/)
+
+A directory-like canonical page copied from extension pack 18. It lists AI-mediated interactions as of 6 August 2024, including a Waymo ride and related media, ElevenLabs voice-cloning/text-to-speech experiments and subscription screenshots, ChatGPT conversations, and generated images. The page’s form is archival rather than narrative: item names and links accumulate as evidence of a technological moment.
+
+Its placement beside p4 is especially apt. The video debates whether media-rich records preserve irreplaceable voice and intonation or merely consume storage. This older page demonstrates exactly what would disappear under a plain-text-only regime: synthetic and original voices, screenshots of service conditions, and multimedia interactions that cannot be reduced without loss.
+
+### node[817] — video: `karbytes_thinking_11august2026_p4.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p4.mp4)
+
+**What is seen.** The first minute continues through a shaded forest trail. Around the middle, the phone swings and briefly rotates/tilts while the speaker emerges into a bright, dry fire road. Thereafter the image is largely tan dirt, scattered leaves, the speaker’s moving legs or shoe, and a distinct shadow showing the phone/body. Exposure jumps dramatically between woodland and open sun.
+
+**What is heard and said.** The speaker explains an archival policy for the Fifth Dark Hiatus: preserve only plain text and source code to conserve M_DISC space. The policy is presented with abrasive humor, including an insult aimed at an imagined audience’s “pea brains.” The speaker nonetheless concedes that original voice, timing, emphasis, and other media-specific qualities have value. A tension emerges between maximal multimedia preservation and ruthless selection. The latter is compared to natural selection: some artifacts survive because resources are finite; others vanish despite expressive richness.
+
+**Voice.** The delivery is drier and more mischievously combative than the prior clips. The insult is louder and more sharply articulated, while the later concession about voice and intonation slows down and becomes more analytical. The acoustic texture changes with the visual transition: shaded trail sounds feel enclosed; the open road has more airy outdoor ambience. Full wording: appendix `video_4_transcription`.
+
+### node[818] — `karbytes_14_september_2024`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/karbytes_14_september_2024/)
+
+An extensive autobiographical document. It opens from a relatively good mood during a Sunnyvale bicycle trip and discusses job interviews, preferring employment to dependence on allowance/disability income, and choosing full-time warehouse work while maintaining a software portfolio. It then retrospectively narrates 2012–2024: an LBNL IT internship; intimate relationships; cannabis and psychedelic use; a 2016 manic period and long San Francisco/Ocean Beach/Golden Gate walk; family conflict and discarding possessions; employment at WIS, Chipotle, Wendy’s, and elsewhere; a 2018 assault on the author’s mother, psychiatric care, jail, a restraining order, and property damage; later work and travel; the onset of perceived voices in 2019; hospitalization and forced medication; financial dependence; and continuing conflict with the mother.
+
+The page is not a simple self-exoneration. It records harmful actions and unstable episodes while also narrating coercion, shame, endurance, and renewed attempts at ordinary work. The closing relative stability—along with the statement that there are more nice people than not-nice people—contrasts with p5’s acute despair. As context, it reveals why employment, housing dependence, family rupture, psychiatric institutions, outdoor walking, and archival legacy recur so intensely in the 2026 videos.
+
+### node[819] — `karbytes_17_january_2024`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/karbytes_17_january_2024/)
+
+This essay argues that survival and practical free will depend on approval from powerful “right people” and on a military-industrial/utilitarian order that allocates resources. The author describes being single, celibate, friendless, and of low perceived social value, then makes a conditional request for physician-assisted death—or proposes cliff suicide—if life becomes permanently undignified or worthless by the author’s criteria.
+
+The rhetoric is legalistic and conditional rather than impulsively lyrical: it attempts to convert despair into a sovereignty argument about who has authority over continued existence. In the video sequence it is a direct precursor to p5’s question of whether life deserves preservation merely because it is alive. It should be read as a historical crisis document, not a philosophical result proven by its premises.
+
+### node[820] — `karbytes_08_november_2023`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/karbytes_08_november_2023/)
+
+This page combines practical archive preservation with theatrical mortality. It discusses burying M_DISCs in a safe or sand as a survival strategy, then proposes making repeated Yosemite-ledge videos that say the author could die but nevertheless returns. The intended proof is simultaneously bodily and metaphysical: endurance would be used to support a claim of immortality and self-appointment as the highest authority. The node therefore joins backup media and brinkmanship as two versions of persistence—one technological, one embodied.
+
+### node[821] — `KARBYTES_JOURNAL_2023_ENTRY_3`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/karbytes_journal_2023_entry_3/)
+
+Despite the 2023 title, the visible update context reaches back into late 2022. The author alleges torture, stalking, censorship, and deprivation, reports suicidal thinking, and describes archive/Wayback preservation as a reason to postpone death. Meditation is framed as the smallest remaining autonomous occupation: if even the pleasure of attending to consciousness can be denied, life is said not to be worth living. The site becomes legacy, witness, and temporary tether. The claims of external targeting remain uncorroborated within the node, but the distress and survival function of publication are unmistakable.
+
+### node[822] — `KARBYTES_JOURNAL_2022_ENTRY_284`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/karbytes_journal_2022_entry_284/)
+
+A severe historical crisis entry. The author attributes harassing voices to law enforcement, sets out a six-month “game,” contracts ambitions, and imagines living as a secular monk: minimalist, mute, hermitic, and celibate. The website is treated as a posthumous legacy, and an explicit cliff-suicide plan is conditioned on completing backups. The striking structural feature is that archive completion is both preparation for death and a delaying task; documentation becomes a dangerous edge but also a practical postponement mechanism.
+
+### node[823] — `KARBYTES_JOURNAL_2022_ENTRY_186`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/karbytes_journal_2022_entry_186/)
+
+This entry defends meditation, nature, introversion, BART/bicycle/walking transport, singlehood, childlessness, and hermetic autonomy against critics who allegedly treat them as inferior. It describes a “double life” in which workplace social conformity coexists with a private identity. Life expectancy is evaluated as a ratio between expected suffering and enjoyment, with cliff suicide again posed conditionally if the balance becomes intolerable. In relation to the 2026 walk, the node explains why travel by foot is not incidental exercise: it is moral practice, anti-consumerist identity, solitude, and an attempt to retain control over attention.
+
+### node[824] — video: `karbytes_thinking_11august2026_p5.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p5.mp4)
+
+**What is seen.** At only 102×180 pixels, the image is blocky but continuously decodable. The phone points down while the speaker walks for more than ten minutes. Dry tan dirt, small stones, brittle leaves, shoe tips, bare lower legs, and a compact body/phone shadow recur. The route alternates exposed gold-brown ground with shaded leaf litter and denser woodland. There are no cuts, captions, or other people. Visual repetition makes the walking feel durational and effortful rather than scenic.
+
+**What is heard and said.** This is one of the most distressed monologues. The speaker fears institutionalization, describes lacking friends, and discusses suicidal thinking, including a hypothetical Yosemite cliff plan and fear that a failed attempt could cause disability or brain damage. The monologue then moves through perceived surveillance, gender/patriarchy, family loss, financial dependence, transactional care, and distrust of helping professions and institutions. A central question is whether life deserves to be preserved merely because it is alive; the counterweight is a continued desire for dignity, bodily health, privacy, and autonomous choice. The transcript records ideation and hypothetical method discussion, but the clip itself does not show an attempt or immediate action.
+
+**Voice.** Close and intelligible despite low video quality. The pitch is mid-low; loudness is mostly steady, with heavier emphasis and a darker timbre around institutionalization, death, and family. Pacing is long-breathed and associative, sometimes accelerating when grievances cluster, then slowing around risk and irreversible injury. Footfalls and light breath remain the rhythmic substrate. Full wording: appendix `video_5_transcription`.
+
+### node[825] — `a_want_for_noninterfering_omnipotences`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/a_want_for_noninterfering_omnipotences/)
+
+A metaphysical essay updated in July 2026. It takes sleep and observation of unconscious bodies as evidence that the physical organism persists while conscious experience is absent, then treats consciousness as emergent from brain activity. From that materialist starting point, the author nevertheless hopes for immortality and God-like capacities: creating universes, controlling experience, and retaining an exit from unwanted logical traps.
+
+The unusual plural “omnipotences” matters. The desired arrangement is not one ruler over all others but limitlessly many sovereign agents that do not interfere with one another. The idea attempts to reconcile maximal power with maximal autonomy by partitioning domains. It directly anticipates p6’s movement between hard-science skepticism, afterlife speculation, alternate pathways, and an insistence that no external captor should own the self.
+
+### node[826] — video: `karbytes_thinking_11august2026_p6.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p6.mp4)
+
+**What is seen.** The 102×180 view remains pointed at the trail. The speaker advances through alternating tunnels of shade and exposed dry path. Tree trunks and green foliage occupy the upper sliver when the phone lifts; most frames are leaf litter, tan soil, shoes, legs, and moving shadow. The continuous bob confirms ongoing travel.
+
+**What is heard and said.** Away from “civilization,” the speaker says the guard can come down and thought can range more freely. Topics include rights, research, problem-solving, a wish for immortality, skepticism about conventional afterlife and past-life claims, and metaphysical alternate pathways. Past cannabis use and withdrawal are discussed alongside the value of composure, dignity, bodily control, and rigorous inquiry. The monologue also contains harsh gender stereotypes and describes a trans-man identity. Anger toward family/“captors” culminates in saying it is pleasurable to imagine them already dead; the speech does not state an operational plan to harm them. The appropriate reading is a volatile fantasy of separation and autonomy, not evidence that the alleged captors or metaphysical mechanisms are real.
+
+**Voice.** Discursive, sometimes coolly analytical, sometimes bitter. The long walking rhythm encourages extended clauses with minimal pause. Profanity and adversarial labels are louder and more percussive; metaphysical passages are quieter and more speculative. Breath is audible but does not dominate. Full wording: appendix `video_6_transcription`.
+
+### node[827] — video: `karbytes_thinking_11august2026_p7.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p7.mp4)
+
+**What is seen.** For the full 11½ minutes the camera stays very low over a shaded, dry-leaf carpet. Shoes and bare lower legs repeatedly enter the bottom and right edge. Small changes in sun patches, tree density, and the visible path show progress, but composition remains intentionally anti-spectacular. The tiny resolution turns leaves into a shifting granular texture.
+
+**What is heard and said.** This long monologue begins with sitting/resting and sleep deprivation, then reviews graveyard-shift work and experiences at FedEx, Quanta, and Amazon. It turns to data privacy and alleged “Psychotronic Harassment,” describing paranoia as a chosen guardedness. Fitness and autonomy lead into comparisons of cats and dogs, childlessness, and possible community child-rearing. The speaker fears poor workplace culture and government interference and describes suicidal thought as a consequence of perceived voice hijacking. The section ends with interest in leaving for another country. Again, the alleged external technology is not established by the recording; what the audio establishes is that the speaker interprets distress through that framework.
+
+**Voice.** Tired but sustained, with a low, slightly roughened timbre. The pace is slower than p5/p6, and fatigue produces occasional flattened endings. Work-history passages are concrete and rhythmic; the surveillance material becomes more guarded and emphatic; animals and alternate living arrangements briefly soften the tone. Full wording: appendix `video_7_transcription`.
+
+### node[828] — video: `karbytes_thinking_11august2026_p8.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p8.mp4)
+
+**What is seen.** A roughly one-minute stationary or nearly stationary portrait view of dry woodland floor. At the opening, a round gray bottle cap/container top and the speaker’s shadow appear; thereafter a shoe, lower leg, pale leaves, twigs, a small sapling, and dark trunks hold almost fixed positions. The stillness visually marks a rest stop.
+
+**What is heard and said.** With recording space nearly exhausted, the speaker quickly continues the emigration thought—Norway and Canada are mentioned—and says perceived psychotronic harassment prevents sustained study and advancement. The conclusion is bleak and compressed compared with the long preceding monologue.
+
+**Voice.** Quiet-to-moderate, low and tired, with fewer rhetorical loops because the time limit is explicit. The final phrases are flat rather than shouted. Full wording: appendix `video_8_transcription`.
+
+### malformed `nodex[x]` between node[828] and node[829] — video p9
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p9.mp4)
+
+**Index status.** The source literally labels this entry `nodex[x]`; it is not `node[829]`. Its physical location and filename show that it is the missing p9 installment, and node[829] correctly resumes with p10.
+
+**What is seen.** The speaker appears seated or reclined on a leaf-covered slope. Both bare lower legs and dark shoes extend into the bottom of a very low-resolution vertical frame. Beyond them, a band of shade opens onto sunlit scrub and thin trees. For nearly 15 minutes the composition changes only through small phone shifts, leg movement, wind/light flicker, and compression shimmer. The static body and bright opening make this the most contemplative image in the sequence.
+
+**What is heard and said.** After compressing earlier videos, the speaker describes the mind calming in the “Big Green Thing”: trees, patterned light, lack of cellular service, and distance from civilization reduce social stress. The discussion then shifts to self-centeredness and the wish for a significant other; an intentionally cold/rational manner is defended as authentic. Cooperation is argued to be compatible with egocentric goals because reducing another’s suffering can serve one’s own preferences, and empathy is treated as natural rather than saintly. The speaker distinguishes a generic clone or “Derivative” from the unique KARBYTES identity, then develops an abstract discussion of infinity, binary patterns, computational limits, and cosmic heat death. Personal problems recede as metaphysics/physics take over. The sentence is cut off and resumed in p10.
+
+**Voice.** The stationary posture reduces footfall noise and makes the voice feel steadier, closer, and more intimate. Timbre is dry and calm; pace is slow, analytical, and recursive, with long pauses used to formulate abstractions. Emotional heat briefly rises around authenticity and social coercion, then cools in the infinity/computation material. Full wording: appendix `video_9_transcription`.
+
+### node[829] — video: `karbytes_thinking_11august2026_p10.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p10.mp4)
+
+**What is seen.** The first minute or two show renewed walking on a dry trail, with sharp body shadow and brief green shrub edges. The phone then settles downward toward a compact patch of dark soil and scattered brown/yellow leaves; shoe tips remain near the lower edge. Most of the remaining ten minutes are almost fixed, signaling another pause.
+
+**What is heard and said.** The interrupted thought resumes: physics demands mathematical and empirical rigor in a way unconstrained metaphysics does not. The speaker wants to study hard science despite feeling unsupported and contrasts unpaid intellectual/athletic “real work” with paid warehouse labor. Frugality is justified as a way to reserve time for high-level study and personal development. The hiatus becomes a training period undertaken without institutional backing. The speaker admits to insults and bragging, distinguishes an abrasive public persona from more modest in-person behavior, considers solipsism, and returns to the calming influence of the Big Green Thing.
+
+**Voice.** Calm and essayistic, with occasional sardonic lift around “real work,” bragging, and imagined audiences. The stationary portion produces stable loudness. Self-correction is audible: assertions are often followed by a limitation or concession. Full wording: appendix `video_10_transcription`.
+
+### node[830] — `journal_karbytes_29october2024`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/journal_karbytes_29october2024/)
+
+This journal experiments with a short publication hiatus and private GitHub work, redirects attention toward immediate satisfaction, and discusses sleeping outdoors, Castro Valley versus the South Bay, and employment agencies. It also records perceived voices/“pig_gorl,” includes hateful and racialized generalizations, and voices a violent fantasy while explicitly saying no violence will be carried out and emphasizing avoidance. Later sections fear inadequate social support, mandatory social masking, homelessness, and being discarded.
+
+A speculative policy proposal pairs robots with humans and funds universal basic income through company profits. The page’s emotional range is therefore wide: sensory self-care and private work, persecutory interpretation and dehumanizing language, fear of abandonment, then techno-economic redesign. The safest analytic stance is exact separation: the distress and stated fantasies are real features of the text; the targeting claims and stereotypes are not thereby factual.
+
+### node[831] — `journal_karbytes_31october2024`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/journal_karbytes_31october2024/)
+
+A practical day-log organized around a bicycle flat, repair at Sunnyvale REI, job applications, finances, and a family housing rearrangement. The author wants to reduce obsessive attention to money and recover time for academic study, software, and media production. A meta-question—whether the note serves a narrow “special interest”—opens into a quotation/argument about the universality of theft and then back into shelter, displacement, and how societies assign value.
+
+Its significance is scale. Unlike cosmic omnipotence or recursive archive myth, the node shows agency being negotiated through tires, transit, a retail repair counter, job forms, and bedrooms. It anchors the grander claims in daily infrastructure.
+
+### node[832] — `journal_karbytes_27october2024`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/journal_karbytes_27october2024/)
+
+This entry follows BART travel, another bicycle flat, camping near the Warm Springs trail, and a vivid dream. It clarifies a meditation practice, records a job rejection and financial calculations, and briefly claims to “have it made” without deadlines—a paradise idea immediately tempered by awareness that disaster remains possible. Utopian speculation touches clean air, immortality, and prison reform.
+
+The late sections become sensorially specific: nocturnal baylands, owls, feral cats, marsh birds, water, and sky, ending with the phrase “always sunny in Sunnyvale.” That environmental attention is the strongest bridge to the 2026 Big Green Thing footage. Nature is not merely background; it is an attention-regulating medium that can temporarily replace institutional and interpersonal narration.
+
+### node[833] — video: `karbytes_thinking_11august2026_p11.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p11.mp4)
+
+**What is seen.** The visual world suddenly opens. A metal livestock gate and fence appear first; a small sign on the gate is partly legible as a warning to keep it closed. Beyond are sun-bleached grass, a low green ridge, blue sky, and a broad tan fire road. The phone points down while passing the gate, then forward along the road. The speaker’s large backpack-shaped shadow stretches across the ground, and the horizon occasionally enters the top of the frame.
+
+**What is heard and said.** The speaker notes limited recording capacity and says subsequent clips will be shorter. They describe the ridge view, say psychedelic mushrooms are wearing off after eating, and return to sleep deprivation and the “Battle of Beds.” Past outdoor camping is reinterpreted as practice: it built competence for sleeping outside and offered privacy unavailable elsewhere.
+
+**Voice.** More buoyant and observational after the static woodland clips. Moderate volume with open-air ambience; pacing is brisk and practical. References to mushrooms and “Battle of Beds” are delivered matter-of-factly rather than ceremonially. Full wording: appendix `video_11_transcription`.
+
+### node[834] — video: `karbytes_thinking_11august2026_p12.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p12.mp4)
+
+**What is seen.** A bright, dusty road fills the portrait frame. Tire tread, footprints, small stones, and sparse weeds pass below. The speaker’s shadow is unusually communicative: one arm swings and repeatedly gestures while the other holds the phone, giving the otherwise absent body an animated silhouette.
+
+**What is heard and said.** At the base of Ramage Peak, the speaker identifies the route and the unusual freedom created by having no parked car and therefore no trailhead-closing deadline. The proposed continuation is Rocky Ridge Radio Tower and possibly Eagle Peak, Danville, or Walnut Creek. Distance is treated as open possibility rather than a round-trip constraint.
+
+**Voice.** Energetic, expansive, and slightly faster. Gestures visible in shadow align with verbal route enumeration. Full wording: appendix `video_12_transcription`.
+
+### node[835] — video: `karbytes_thinking_11august2026_p13.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p13.mp4)
+
+**What is seen.** The orientation changes to landscape. A dry golden field occupies the foreground; a low weathered concrete/metal utility structure sits near center-right; Ramage Peak rises beyond in mottled tan and green beneath a clean blue sky. At the opening a hand touches straw-like grass; a finger briefly covers the lens, and an orange/red bag or garment flashes at the lower left. The rest is a mostly fixed scenic view with small handheld corrections.
+
+**What is heard and said.** The speaker announces, “We crawled all the way from The Burrow to the base of Ramage Peak,” then wryly concedes that the plain-text-only plan is failing. Video allows “seeing in more dimensions than symbols in sequence.” The image itself supplies the proof: spatial relation, color, scale, texture, and physical arrival are immediately apprehensible.
+
+**Voice.** Lighter and quietly triumphant, with a smile audible in the “crawled” exaggeration. The line about dimensions is slow and reflective. Full wording: appendix `video_13_transcription`.
+
+### node[836] — video: `karbytes_thinking_11august2026_p14.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p14.mp4)
+
+**What is seen.** For roughly the first half, the camera looks directly down into a shallow creek. Clear, dark water threads between smooth gray and brown stones; tiny ripples and glints reveal current, and a yellow leaf supplies a saturated accent. The phone then tilts up and pans through a sunlit oak grove: dry grass, dark trunks, a curving leaf-covered trail, intense low sun flare, and a red/orange trail marker or fence element at the right.
+
+**What is heard and said.** Flowing water is the prominent environmental sound under the close voice. The speaker explicitly notices the water’s color, says it is worth recording, and decides to continue taking photographs while identifying the Rocky Ridge Trail. This is the least ideologically burdened clip: attention stays with water, color, route, and the pleasure of capture.
+
+**Voice.** Softer, brighter, and more present-tense. Short phrases replace long argumentative chains. The creek adds a continuous high, liquid texture beneath the speech. Full wording: appendix `video_14_transcription`.
+
+### node[837] — video: `karbytes_thinking_11august2026_p15.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p15.mp4)
+
+**What is seen.** A landscape view looks across a dry, terraced-looking hillside bordered by dense dark-green oaks. The camera zooms or points more tightly toward a cluster of small dark shapes—turkeys—moving or standing below. It then swings back to the gravel fire road ascending through gold grass.
+
+**What is heard and said.** The speaker points out the turkeys and then resumes the plan to continue toward Rocky Ridge Radio Tower. The clip works like a field note: sighting, visual confirmation, onward movement.
+
+**Voice.** Briefly delighted and demonstrative, with slightly higher pitch on the animal sighting, then neutral and purposeful. Full wording: appendix `video_15_transcription`.
+
+### node[838] — video: `karbytes_thinking_11august2026_p16.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p16.mp4)
+
+**What is seen.** The camera faces forward along a broad, steep fire road curving between tall golden hills. Low sun repeatedly enters above a ridge, producing white glare and reddish lens flare. Sparse dark-green shrubs and oaks punctuate the dry grass. Near the end, a wooden trail post appears at a fork and the phone pans across layered hills and the descending road. Camera bob and horizon tilt convey uphill effort.
+
+**What is heard and said.** At about 7:05 p.m., with roughly fifteen minutes of recording space, the speaker acknowledges the late departure and next-day appointment. The route beyond the radio tower is reconsidered. Physical exertion, oxygen, and nature are credited with renewed energy. The speaker says north Ramage is more scenic, explains that the right fork is Rocky Ridge while another road leads toward Moraga/King’s Canyon, and promises a no-talking Big Green Thing version.
+
+**Voice.** Noticeably energized but breathier. Route explanation is crisp and guide-like; the promise of silent footage is playful given the current monologue. Wind/open-hillside ambience is more exposed than in the woods. Full wording: appendix `video_16_transcription`.
+
+### node[839] — `chatgpt_karbytes_11august2026_p0.txt`
+
+[Plain-text source](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/chatgpt_karbytes_11august2026_p0.txt)
+
+This 9,000-plus-word transcript opens with OCR/extraction from employer screenshots. It records an Amazon start date of 27 August 2026, flexible shifts, two training sessions (27 August 3:20–10:50 and 28 August 4:20–11:50), pay of $22/hour, approximately 19 hours/week, and a pre-hire appointment in Fremont on 12 August from 1:00–1:30 p.m. The job is evaluated as an income floor rather than a vocation.
+
+The conversation then moves through the planned early-morning hike, M_DISC delivery, seeing Brea, overeating/nausea, stress hives, delayed departure, and perceived “pig_gorl” voices. It contains hateful stereotypes followed by corrections, clarifications, and an explicit statement of no harm intent. The speaker tries to identify a root fear of sabotage rather than merely repeat hostile surface content. After the overnight trek, an update says the appointment was missed after about five hours of sleep but rescheduled for 13 August at 8 a.m.; the speaker insists on Pacific time and reviews the ambitious two-day route and dark return.
+
+As context, node[839] joins bureaucratic precision and psychological volatility. Exact dates, wages, training times, and appointment windows coexist with bodily symptoms, sleep loss, perceived harassment, and a trek whose duration directly undermines the employment plan.
+
+### node[840] — video: `karbytes_thinking_11august2026_p17.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p17.mp4)
+
+**What is seen.** Dusk has arrived. A dirt road climbs a barren rounded ridge; a wire fence parallels it under a pale blue-to-pink sky. The speaker’s shoes/legs appear at the bottom as if seated. Around seconds 6–9, the phone flips to a brief upside-down close view of the speaker’s face: light-to-medium skin, dark eyebrows and short dark hair, framed by a dark jacket/backpack with small red accents. The phone returns to the empty road and fading horizon.
+
+**What is heard and said.** The speaker says tiredness arrived suddenly after sunset, inventories one full water bottle and three empty ones, and weighs two options: rest and continue toward Bollinger Canyon for water, or return with the remaining bottle. No final decision is announced in this clip.
+
+**Voice.** Lower energy, slower cadence, and softer loudness than p16. The inventory of bottles is careful and practical. Fatigue is audible but speech remains coherent. Full wording: appendix `video_17_transcription`.
+
+### node[841] — video: `karbytes_thinking_11august2026_p18.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p18.mp4)
+
+**What is seen.** For 8⅓ minutes the landscape frame is almost entirely black-purple. A faint horizontal ridge/horizon and occasional tiny lights or sensor specks can just be distinguished. The darkness remains stable rather than dropping frames: the camera is recording a real night scene below its useful exposure range. With visual orientation removed, the clip is experienced principally through speech and movement/air noise.
+
+**What is heard and said.** At approximately 11 p.m., the speaker is still in the Big Green Thing and reports having rested near the radio tower. The decision was to return with one bottle rather than continue, while accepting possible mountain-lion risk. The speaker reverses an archival decision: instead of retaining only transcripts/highlights, all videos should remain so the sequence and numbering are complete. Plain-text minimalism is now acknowledged to conflict with a complete video archive. The speaker considers separating Big Green Thing material from “karbytes-thinking” pages, reconsiders earlier golf-course remarks as perhaps based on mishearing, worries about Redwood Road after dark, remembers the 1 p.m. appointment, and reflects on Amazon flexible shifts, prior warehouse experience, and direct deposit. The clip closes in active return mode.
+
+**Voice.** Fatigued and subdued but more organized than p17. Long sentences return, though at a slower tempo. Practical points—water, mountain lions, route, appointment—alternate with meta-archival reasoning. Darkness intensifies the voice’s intimacy and vulnerability. Full wording: appendix `video_18_transcription`.
+
+### node[842] — video: `karbytes_thinking_12august2026_p0.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_12august2026_p0.mp4)
+
+**What is seen.** A vertical frame of near-total darkness, tinted faint maroon/purple by sensor noise. At moments an indistinct tree mass or ground edge can be inferred, but there is no stable, confidently identifiable object. The persistence of subtle low-level texture confirms live capture rather than a solid black title card.
+
+**What is heard and said.** Near 1 a.m. on south Ramage, the speaker contrasts clearer weather with a cloud barrier on the Castro Valley side, notes the absence of visible moon and stars, and characterizes a coming wooded section as “Blair Witch”-like—creepy but intriguing. The speaker says worrying does not prevent bad events.
+
+**Voice.** Quiet, alert, and slightly hushed, as if conserving energy and listening to the surroundings. The “Blair Witch” reference has a small nervous lift. Full wording: appendix `video_19_transcription`.
+
+### node[843] — video: `karbytes_thinking_12august2026_p1.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_12august2026_p1.mp4)
+
+**What is seen.** More than six minutes of nearly opaque purple-black portrait video. Very faint shifting gradients imply forward movement and occasionally suggest vegetation or trail edge, but the lens cannot render the route. The lack of visible guidance makes the audio’s reports of slipping, stones, turns, and road danger carry nearly all spatial information.
+
+**What is heard and said.** “No way out but through” establishes the clip’s logic. In the Blair-Witch-like woods, the speaker makes conspicuously loud deterrent calls—transcribed as “Blat!”—and says “You better watch it, George!” to project presence toward possible predators. The situation is described as both fun and not fun. The speaker wants to reach the Burrow, calculates alarm/sleep/work demands, slips, and gets a rock in a shoe but refuses to stop. A dangerous road still lies ahead. The hike is framed as masochistic exercise and full responsibility: an epitome of the Hiatus ideal that is physically unpleasant in practice. Cloud layer, past wrong turns, flashlight/camera conflict, pain, fear, grouchiness, and sleep deprivation accumulate. The speaker wonders whether consolidating so many mental states has produced a changed person.
+
+**Voice.** The broadest dynamic range of the series. Most narration is tired, close, and mid-low, with breath and step noise. The deterrent calls are sudden, loud, short, and higher-energy, breaking the intimate texture; “George” is projected theatrically. Later speech becomes rougher, flatter, and more irritable as pain and exhaustion are named. Full wording: appendix `video_20_transcription`.
+
+### node[844] — video: `karbytes_thinking_12august2026_p2.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_12august2026_p2.mp4)
+
+**What is seen.** Although the file is nominally 1920×1080, the 32-second landscape image is still nearly black with a faint reddish-purple cast. Resolution cannot recover photons that were not captured. The frame appears mostly stationary, consistent with the speaker lying down.
+
+**What is heard and said.** At approximately 2:46 a.m., the speaker says they are lying on the trail, feet are sore, exhaustion is severe, there is still a long way to go, and they are thinking about dying from exhaustion. It is a concise field report of acute fatigue, not an abstract essay.
+
+**Voice.** Very low energy, quiet, flat, and slowed, with little rhetorical ornament. The exhausted delivery is more informative than the black picture. Full wording: appendix `video_21_transcription`.
+
+### node[845] — video: `karbytes_thinking_12august2026_p3.mp4`
+
+[Video](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_12august2026_p3.mp4)
+
+**What is seen.** Daylight returns under a gray overcast sky. A pale dirt road crosses dry rolling pasture with fence posts and scattered dark oaks. The camera pans right toward a dense green blackberry bramble beside the path. A bare hand reaches in, pinches a dark ripe berry, lifts it briefly toward the lens, and the camera swings back to the road as walking resumes.
+
+**What is heard and said.** Around 6 or 7 a.m. at “Horsey Hill,” after the all-night traversal, the speaker notices ripe blackberries and says, “I think I’ll take one.” The series ends not with a metaphysical resolution but a small edible object found in the landscape.
+
+**Voice.** Quiet, tired, relieved, and gently curious. Pitch lifts slightly on the discovery. The spare sentence and simple hand action form an understated dawn coda. Full wording: appendix `video_22_transcription`.
+
+### node[846] — `journal_karbytes_15august2026_b`
+
+[WordPress page](https://karbytesforlifeblog.wordpress.com/journal_karbytes_15august2026_b/)
+
+This is the canonical public presentation of node[808]’s complete transcript compendium. Before the text, a sequence of images establishes the trek’s visual vocabulary: a night ridge with a bright moon/light near a silhouetted power pylon; a dry rolling hill and dirt road beneath blue sky; a green ravine framed by gold grass; a deeply shaded woodland trail dominated by a massive dark trunk/root; and the marked 2024 ballot.
+
+That montage condenses the whole object: nocturnal risk and infrastructure; open-country locomotion; the nourishing “green” interior; shadowed enclosure; and explicit civic choice. The page then provides the ordered context list and all 23 transcriptions. It is therefore both endpoint and reading apparatus—an audiovisual expedition translated into a stable, searchable public text while retaining the images that prove why text alone was judged insufficient.
+
+## Synthesis
+
+Across these 53 nodes, the nominal “hiatus” is not inactivity. It is a controlled oscillation among bodily movement, private incubation, archival austerity, media abundance, automated interpretation, and canonical republication. Three contradictions generate most of the object’s energy:
+
+1. **Plain text versus irreducible media.** The speaker repeatedly proposes text/source-code minimalism, then records scenes whose water motion, sunset glare, darkness, voice fatigue, gestures, and dawn color cannot survive literal transcription. The archive finally keeps both.
+
+2. **Autonomy versus dependence.** Walking rather than driving, private repos, low expenses, solitary study, and noninterfering omnipotences express sovereignty; jobs, family housing, psychiatric systems, platform infrastructure, public roads, and bodily water/sleep requirements demonstrate dependence.
+
+3. **Withdrawal versus publication.** “Hiatus” and deep-web incubation promise escape from audience pressure, yet M_DISC duplication, Wayback capture, WordPress canonization, GitHub Pages deployment, recursive crawling, and transcript compilation continually produce more public objects.
+
+The videos’ physical chronology gives those contradictions a body. Daylight irritation becomes wooded abstraction; wooded abstraction opens into scenic evidence; scenic evidence is overtaken by sunset and nearly unreadable night; exhaustion finally yields dawn and one blackberry. The ending does not solve the philosophical conflicts. It reduces scale from infinity and archive canon to a hand selecting food, which is perhaps the sequence’s most concrete image of viable agency.
+
+## Complete speech transcription appendix
+
+The following source text is the creator’s public-domain, karbytes-curated transcript corpus from node[808]. I cross-checked it against complete independent audio decoding/recognition. It is reproduced in full so that no spoken section is omitted. The internal `video_0` through `video_22` numbering maps to p0–p18 of 11 August (including malformed-list p9) and p0–p3 of 12 August exactly as described above.
+
+/**
+ * file: journal_karbytes_14august2026_p1.txt
+ * type: plain-text
+ * date: 15_AUGUST_2026
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+// KARBYTES_VIDEO_TRANSCRIPTIONS_13AUGUST2026
+
+The following twenty-three videos were transcribed using the TurboScribe.ai web application.
+
+(Before the video links and their respective karbytes-curated transcriptions are presented in this file, an ordered list of relevant KARBYTES file nodes are presented as karbytes-officialized context by which to interpret those videos and their respective transcriptions).
+
+relevant_web_page: https://karbytesforlifeblog.wordpress.com/journal_karbytes_15august2026_a/
+
+~ ~ ~
+
+(The following ordered sequence of nodes tells a particular story about the mythologized karbytes as it traverses the spacetime continuum which is its own solipsistic experience of the First Official Major KARBYTES Hiatus (spanning the summer months of the year 2026). The date labels in the web page names are relatively insignificant compared to the dates on which those web pages were last updated (and the dates on which those pages were most recently updated is less relevant than the order in which karbytes selected to arrange those web pages within the following nodes list)).
+
+[preformatted_text]
+
+EPIC_KARBYTES_HIATUS_SUMMER_2026_NODES_LIST := {
+
+  node[-39] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_27june2026/'},
+
+  node[-38] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_22june2026/'},
+
+  node[-37] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_14june2026/'},
+
+  node[-36] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_05july2026/'},
+
+  node[-35] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_07july2026/'},
+
+  node[-34] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_21june2026/'},
+
+  node[-33] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_18july2026/'},
+
+  node[-32] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_19july2026/'},
+
+  node[-31] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_02august2026/'},
+
+  node[-30] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_26july2026/'},
+
+  node[-29] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_02august2026_k/'},
+
+  node[-28] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_02august2026_i/'},
+
+  node[-27] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_05august2026/'},
+
+  node[-26] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_08august2026_d/'},
+
+  node[-25] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_05august2026_a/'},
+
+  node[-24] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_r/'},
+
+  node[-23] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_s/'},
+
+  node[-22] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_m/'},
+
+  node[-21] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_q/'},
+
+  node[-20] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_04july2026/'},
+
+  node[-19] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_13july2026/'},
+
+  node[-18] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_n/'},
+
+  node[-17] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_k/'},
+
+  node[-16] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_22july2026/'},
+
+  node[-15] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_24july2026/'},
+
+  node[-14] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_10june2026/'},
+
+  node[-13] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_09july2026/'},
+
+  node[-12] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_03july2026/'},
+
+  node[-11] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_28july2026/'},
+
+  node[-10] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_u/'},
+
+  node[-9] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_31july2026/'},
+
+  node[-8] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_30july2026/'},
+
+  node[-7] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_24june2026/'},
+
+  node[-6] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_26june2026/'},
+
+  node[-5] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_24june2026/'},
+
+  node[-4] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_17july2026/'},
+
+  node[-3] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_16july2026/'},
+
+  node[-2] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01july2026/'},
+
+  node[-1] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_30july2026/'},
+
+  node[0] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/karbytes_is_stuck_in_the_big_green_thing/'},
+
+  node[1] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_15august2026_a/'},
+
+  node[2] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_15august2026_b/'},
+
+  node[3] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_05august2026_b/'},
+
+  node[4] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_15august2026_a/'},
+
+  node[5] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_26june2026/'},
+
+  node[6] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_10july2026/'},
+
+  node[7] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_11july2026/'},
+
+  node[8] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_14august2026_c/'},
+
+  node[9] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_13august2026_b/'},
+
+  node[10] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_l/'},
+
+  node[11] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_27july2026/'},
+
+  node[12] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_j/'},
+
+  node[13] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_08august2026_c/'},
+
+  node[14] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_13july2026/'},
+
+  node[15] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_14august2026_a/'},
+
+  node[16] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_27july2026/'},
+
+  node[17] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_18july2026/'},
+
+  node[18] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_02august2026_g/'},
+
+  node[19] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/journal_karbytes_23july2026/'},
+
+  node[20] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_02august2026_h/'},
+
+  node[21] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_08august2026_e/'},
+
+  node[22] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_13august2026_a/'},
+
+  node[23] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_14august2026_a/'},
+
+  node[24] := {relevant_web_page: 'https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_14august2026_b/'}
+
+}.
+
+[end preformatted_text]
+
+~ ~ ~
+
+* * *
+
+video_0_name: karbytes_thinking_11august2026_p0.mp4
+
+video_0_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p0.mp4
+
+(relevant_plain-text_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/chatgpt_karbytes_10august2026_p1.txt)
+
+video_0_transcription:
+
+All right, I see I got 42 minutes of recording time. Thankfully, I'm not planning on uploading the video to the canon KARBYTES, nor to the... I'm in the middle of trying to record right now, but there's other people around me, and I feel like I have to stop what I'm doing whenever they're here, because only they're allowed to talk, apparently. I was about to say something, but I got distracted by those other people.
+
+I haven't been having a very good day today. A lot of it is because part of my challenge today was to not drive to the trailhead; instead walk from my house to the trailhead. But I have to go through all these people to do so, and I haven't really been able to enjoy myself because there's other people around.
+
+What I was saying to myself before other people distracted me is, I feel like almost no one gives a fuck about my well-being. And what made me think that is, I'm debating on whether or not I should even go to this pre-hire appointment tomorrow, because maybe the job isn't worth it, because it's too little money for how much it costs me. It's going to cost me the ability to have a good night's sleep and to do what I want to do in the morning, but I will have extra money.
+
+I don't know if it's worth it though, because it's not like it's a full-time job. It's not like the pay is super great. If it were a full-time job and it were a more stable job, it didn't feel so much like a scam.
+
+I probably would feel a lot better about this, but I don't. So, I figure that I have all day to think about this matter. I may or may not go to the appointment tomorrow.
+
+* * *
+
+video_1_name: karbytes_thinking_11august2026_p1.mp4
+
+video_1_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p1.mp4
+
+video_1_transcription:
+
+I'm walking along Redwood Road and I haven't even got to the trailhead yet and I think I've already made my decision. I'm gonna go ahead and try to get to this appointment tomorrow because I realized how important it is to get money somehow. I was thinking about some guy who's kind of a young guy who apparently got famous on the news just because he said he shouldn't have to work because he didn't have any say over being born.
+
+And therefore, he shouldn't have to pay for his upkeep. Then again, I was thinking, if that's the case, then how is he going to continue to exist? He's going to just have to subsist on donations or on foraging or on farming. But all that usually costs something unless he finds a way to start from scratch or he could join a commune.
+
+But that's aside from what I'm focused on. I'd rather just not have to build everything from scratch. I'd rather be able to earn some kind of income so I can pay for things through the capitalist system that already exists and which seems to be good enough for my purposes.
+
+That's not to say that it's perfect by my assessment, but for now it will do. So I might as well just go to a normal job, even if it's kind of a scammy job, and just accept it for what it is. A rather low barrier to entry way to earn some money.
+
+It might not be the most glamorous job, but it's still a legal way to make money which doesn't seem to cost too much. There are worse jobs than that. Some people have a problem with me earning money in a way that doesn't cost me to the point that it drains my soul to the point that I'm not happy.
+
+Because some people think that the cost of making money at all is to forfeit my happiness. Period. Those people think that there's only one way to be happy and that means you ought to not be working.
+
+* * *
+
+video_2_name: karbytes_thinking_11august2026_p2.mp4
+
+video_2_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p2.mp4
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/the_big_green_thing/)
+
+(relevant_image_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_24/main/voter_ballot_of_karbytes_2nd_ballot_24oct2024_p1.jpg)
+
+video_2_transcription:
+
+Okay, I was just about to go into the trail at Chabot Staging Area, but a cop car showed up and I pretended to be going the other way down this rather dilapidated trail that goes more towards Lake Chabot and goes under a bridge. I'm not really going this way though. I'm just trying to avoid getting in trouble because I don't remember if I actually updated my trail permit.
+
+I think I tried to recently, but the website for some reason wasn't working. It didn't allow me to pay for the trail permit, or I did. I don't really remember, but I think I would probably remember if I did and have a record that I did.
+
+So I don't really feel prepared right now to present any record that I have a valid permit, which means I'd probably have to pay a huge fine or go to jail. So already I'm not having any fun today because there's been so many obstacles to me being able to enjoy myself, which are really due to other people or to society. I feel like all this could have been avoided if I saved a little money for gasoline instead of buying a bunch of food that I didn't really need and driving to Las Trampas Wilderness instead and then entering the Big Green Thing from there and avoiding a lot of the struggle that I had to go through today.
+
+So I'll tell you I'm not having fun in Castro Valley. Every time I go out for a walk I feel like people heckle me. That's the truth.
+
+Almost every time. More often than not. And maybe they're trying to be friendly, but to me I don't really want to talk to people.
+
+I don't want to be gawked at. I don't want to be harassed in the street. But it happens a lot.
+
+It seems like people feel entitled to pick on me because they think I'm an easy target. Unfortunately I kind of am because I'm a loner and maybe I have a bit of a notorious reputation for all kinds of reasons. Partly because I'm so open about my thoughts and the way I live my life which isn't exactly all that normal or congruent with traditional conservative values or even with so-called liberal values because the way I am is just kind of independent and maybe a bit more focused on the Green Party kind of values.
+
+Not so much on more human-centric, human-focused kind of values. So I focus more on the ecosystem at large and not just the humans and their culture because I think they're a bit out of touch with science and environment. They'll say things like climate but that's just kind of not really showing how serious the issues are in pertinence to environment.
+
+That's just about the temperature of the atmosphere and the ocean. That's to say nothing of the pollutants in the water and the air and the effects those pollutants have on living organisms. I think people just don't want to have to deal with the actual seriousness of gas guzzling vehicles.
+
+There's so many of them around here. I couldn't help but notice they're the overwhelming majority when it comes to the types of vehicles there are. Big, giant, gas-guzzling vehicles.
+
+It's like people are proud to pollute as much as they possibly can. It's like a status symbol. I think that's what it is.
+
+So I'm not exactly proud of you guys for choosing to have unnecessarily destructive to the environment vehicles. It's not harmless. You're harming me.
+
+* * *
+
+video_3_name: karbytes_thinking_11august2026_p3.mp4
+
+video_3_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p3.mp4
+
+video_3_transcription:
+
+Okay, I have 33 minutes of recording time left, and I'm actually now walking along the trail. Not quite at Ramage Peak trailhead yet, but I'm on some other trail which will eventually get there, probably in about 10 minutes or less. What I was thinking was, it seems that it's almost a requirement to be in a pleasant mood, or at least appear to be, when other people are around, especially in the area that I live in.
+
+It seems that appearances are paramount here, and almost nothing else seems to matter nearly as much. So that's kind of all people really talk about, it seems, to me at least, is appearances. People don't seem to have interest or time for anything deeper than that.
+
+Maybe they don't think it's appropriate, I don't know why. Maybe they don't want to come across as overly serious. That gets back to my point of, it seems that there's an implicit rule that one has to always keep it light, not too formal, not too serious, not too heavy, not too stressful.
+
+If you have stressful things to deal with, don't talk about it to people. If you have to talk about it, period, talk about it in a confidential setting with a therapist or with someone who is willing to deal with it.
+
+So don't expect people to want to talk about serious things. But there's another part of this [which is] kind of bit of a contradiction. I noticed that it's not okay a lot of times for me to actually be in a good mood.
+
+People like it when I'm in a bad mood. Maybe what it really is, is they don't like it when I have actual concerns to be stressed out about. Instead, they like it when I appear to be stressing over trivial things so that they can just dismiss my distress as not really important.
+
+So they can justify forcing me to be on mind-suppressing mood stabilizer medication for their convenience, pretty much as the only reason why. Because only they seem to matter. So they just want to get rid of people that are inconvenienced to them.
+
+That's effectively killing me, psychically. I really feel at some level that I'm on the run because people are trying to murder me.
+
+* * *
+
+video_4_name: karbytes_thinking_11august2026_p4.mp4
+
+video_4_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p4.mp4
+
+(relevant_plain-text_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/chatgpt_karbytes_10august2026_p1.txt)
+
+(relevant_plain-text_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/journal_karbytes_14august2026_p0.txt)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/mdisc_karbytes2026_7/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/karbytes_05_august_2024/)
+
+video_4_transcription:
+
+I know I've already said it today in some note in a ChatGPT transcription log that my challenge with the Fifth Dark Hiatus Bubble of the macro Hiatus of the Summer 2026 is to make all the files that are in this bubble only plain text or source code files. And I'm just going to say it again, just to be clear, because I know my audience might not want to have to go through these lengthy files. So with these transcription files, there's this bunch of little files, so it's nice and easy for your pea brains to process.
+
+I know you're all so busy with more important things, so it's a miracle at all that anyone reads my content. Maybe they'd be more likely to consume the content if it were more sensationalist or a more media-rich format that's more engaging for their attention, but I'm not really doing that anymore, because I'm trying to conserve the space I have left. I know I used up probably more than—never mind, I take that back.
+
+Last time I checked, I'm not quite at the halfway point for a 25-gigabyte disk. I don't think I'm near filling up an entire 3 M_DISCs yet with canon KARBYTES content, and if I make everything, like I said, plain text or source code files only for a while, that's going to significantly reduce how much I increment the size of the collection, which will allow me to actually fit more actual content in it, which is going to be in a more streamlined format. But, one of the drawbacks is I enjoy listening to my own voice talking. It's almost like hearing a friend, but if I really like it that badly, maybe I can re-subscribe to ElevenLabs or whatever it's called, clone my voice again with samples of my voice, and have it read these things if I want to hear it so badly, but it's not going to sound like the original because there are certain ways I intonate what I'm saying, which I don't think can be replicated quite as authentically, so that's going to be lost forever.
+
+Oh well, so many things just don't make it. It's a selection process, ruthless as it is. Just like natural selection in general.
+
+* * *
+
+video_5_name: karbytes_thinking_11august2026_p5.mp4
+
+video_5_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p5.mp4
+
+(relevant_plain-text_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/journal_karbytes_14august2026_p1.txt)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01july2026/)
+
+(relevant_plain-text_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_70/main/journal_karbytes_07july2026_p0.txt)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/karbytes_14_september_2024/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/karbytes_17_january_2024/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/karbytes_08_november_2023/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/karbytes_journal_2023_entry_3/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/karbytes_journal_2022_entry_284/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/karbytes_journal_2022_entry_186/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/karbytes_ontology/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/the_cosmos_as_fundamentally_digital/)
+
+video_5_transcription:
+
+I'm starting to get along on this trail quite a bit now. I'm on Ramage Peak Trail. I've been having some pretty disturbing thoughts, and I think that what I've said so far in this hiatus bubble is already going to make people think that maybe I deserve to be institutionalized for an indefinitely long time, just because it might be troubling.
+
+Not necessarily because they're concerned for my welfare, but because they're afraid that maybe I'm a bad influence on the people they actually care about. I'm just going to jump to conclusions that I really don't think people have much incentive to care about me at this point in time, because I've intentionally, and maybe to some extent unintentionally, distanced myself from people in general, so that the only people that really seem to actually care about me is my family of origin. I don't really have any friends anymore, and that's because a lot of my former friends don't really like me.
+
+They already thought there's something wrong with me, and they're kind of right. I don't really think I'm a bad person, I think I'm a pretty good person, and I have a lot of potential, but not a lot of people think I'm worth investing in. So without other people investing in me, I don't really get very far in life.
+
+So I'll be honest, I've been thinking about suicide. I've been thinking that my ideal way to commit suicide is by jumping off a very tall cliff, probably at a place like Yosemite, and I thought about doing preparation runs where I'll drive up there and find a spot where I would jump, but not actually jump, just so I have in my mind as a plan in case I decide that it's worth doing that. At the very least, I think it would give me some peace of mind to have a definite plan for how I would cleanly kill myself so that it's not a botched job.
+
+If I think it's going to be a botched job, I'm not going to intentionally do it. And the reason why I'm saying that is because I don't really have much faith that I'm going to have a good time if I live through certain circumstances. The worst case scenario is I become crippled to the point that I'm not able to really do anything.
+
+That can mean that I am paralyzed, or that I'm blind, or severely brain damaged. Those are the big ones. But it's on my mind.
+
+I feel like out here today there's been a lot of surveillance on me. I see a helicopter coming in my direction. It seems like whenever I'm recording anything important, that's when surveillance vehicles show up.
+
+It only seems to happen when I come into the big green thing through the Castro Valley side. So I think Castro Valley is a bunch of control freaks who want to keep their female-bodied humans enslaved to the patriarchy. They just won't stop talking shit about the fact that I'm a female-bodied human and ought to be treated like every other female-bodied human.
+
+Just chattel, really. I don't even try to push my gender preference anymore on people. I still take testosterone because it makes me feel better, and I think it makes me look better, and I think enhances my performance.
+
+It just makes more sense for me to be on testosterone than not. But not according to the so-called patriarchy. Ironically, I don't really have any male friends.
+
+I don't really have any female friends. Like I said, all I have is family of origin, and eventually my parents are going to die.
+
+Something bad could happen to my brother or to my other relatives.
+
+I don't really talk to my other relatives. I kind of keep to myself. A lot of my family has died already.
+
+And also, I don't really feel comfortable relying on them solely for financial support, even though it's been convenient for me to do so. Not that I think there's anything seriously morally wrong with that. It's just more comfortable when I have control over the money, and it just feels more like I'm an actual adult instead of some kind of dependent who's basically on their knees.
+
+That's not a comfortable dynamic for me to be in. So really, whenever I talk about anything at all, I always assume a self-centered point of view. I'm going to be upfront about that.
+
+I try to only speak for myself, but I do assume other people basically are also just as self-centered as I am. But maybe they do a better job of masking it by appearing to care about others to a much larger extent than I appear to care about others. But I think in the end, it's all transactional, and it's really because they're afraid of being on their own.
+
+Because if they are, they're left for dead. They're left to suffer. They're neglected.
+
+And I'm afraid that that's definitely going to happen to me, most likely in the future, unless I get into some better circumstances. Ideally, society would not force people to have to depend only on their family or on friends, and would instead have professionals that would take care of them for free; paid for by taxes, perhaps.
+
+And they do it because they want to, and they'd be good at it. But maybe that's expecting too much of people. Maybe people really don't give without strings attached, deep down.
+
+I think spirituality does help, though. If people have a deeper sense of meaning in life beyond just getting paid money, and it fulfills them at some deeper level, gives them a sense of purpose, then I think they're more likely to do a good job of it. But I think a lot of people in the caring professions are likely to be abusive to patients.
+
+Maybe they're attracted to those professions because they like to have control over vulnerable people. So I have a lot of reason to be afraid. I don't really trust the system, because it has flaws.
+
+And people suffer, oftentimes, in silence. And there's nothing they can do about it, because they're crippled. So what can I do? I don't mean to sound like I don't care about those people.
+
+I do, at some level, care about everyone. Maybe so much that it hurts to exist, and it's better just to go back to the void. But that's kind of a lazy, cowardly solution to all this.
+
+So while I'm alive, I'm going to try to make the most of my human agency while it lasts. But if I get to a point where I'm incapacitated permanently, and crippled, and suffering, that's horrible. And there's nothing I can say to really make it better.
+
+At that point, I probably wish to die. And there's no way I could actually kill myself. Instead, I'd be forced to probably die a slow, painful death and have almost no say over my life.
+
+I'd probably feel like I'm being objectified and used by other people. It's horrific, just to think about this. There's no way I could really be happy, because these things are a possibility.
+
+And worse things are a possibility, and an actuality, as far as I've observed. I'm not going to go on and on about abstract things like the existence or lack thereof of a god, because I think that's irrelevant here. I'm more concerned about actual, phenomenal things.
+
+Things that are apparent through the senses and through thoughts. Those are things that seem to correlate with a finite, measurable amount of energy being transferred between massful objects. There's no escape from physicality, as long as there's phenomena.
+
+Maybe I'm just expanding my view to the point where I can see how much of it is not necessarily intentionally supposed to feel good. It just happens to feel good at times. But it's just a pattern replication procedure at large in some kind of large computer.
+
+And what gives me pleasure, above all, is seeing what's happening how the computers work, and contextualizing everything through a computational lens. So my metaphysics is centered on seeing everything as fundamentally computational. That gives me a way to kind of organize my thoughts and my actions.
+
+So they kind of revolve around cyberspace and physicality interfacing. That gives me something to do; gives me a way to organize things, gives me a sense of control, and that's what makes me feel good. So when it comes down to it, I'm a hedonist, presumably like everyone else.
+
+Just trying to feel good and avoid feeling bad. And that's it. There's nothing deeper to what I'm doing than that.
+
+That's my spirituality for you.
+
+* * *
+
+video_6_name: karbytes_thinking_11august2026_p6.mp4
+
+video_6_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p6.mp4
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/karbytes_rules_for_itself/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/sovereignty_of_karbytes/)
+
+(relevant_web_page: https://karlinaobject.wordpress.com/causality/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/a_want_for_noninterfering_omnipotences/)
+
+video_6_transcription:
+
+The sad truth is, when I get far enough away from civilization, I feel like I can actually let my guard down and have some real thoughts. And I wonder, if I never did that, would I ever have any real thoughts? Maybe only late at night when it seems that most people are asleep, but even then, I don't think my thoughts would be quite as pure or as deep as they are when I can actually get away from the trappings of civilization in the sense that there's other people just around the corner or behind the wall, ready to spring into action to suppress my freedom of speech. Well, right now, I am acknowledging the fact that I appear to have the constitutional right of freedom of speech and freedom of practicing my religion, for the most part.
+
+And I don't appear to have any obvious restrictions on my so-called unalienable rights, according to the United States Constitution. But more importantly, there's a sense of what human rights are, according to some large international committee of first world nations, where I think they periodically have meetings about these things, so that everyone stays current on what these are. Sometimes I think that the United States doesn't really stay current enough, but that's a whole other matter.
+
+I don't really want to get into politics. That's not really my area of expertise, nor is it something I'm all that super interested in, because I think it just kind of gets too abstract and far away from the more concrete, practical concerns in dealing with them in a more tangible, direct way. And I think the only way to do that is through research and development.
+
+So very concrete problem solving is all I really seem to care about. That's what I do for a living. If I don't have problems to solve, then what do I do? Maybe I invent problems to solve.
+
+Maybe that's what video games are for. But I'm not really one to seriously play video games, it seems, at least not recently. Instead, if I seem to have almost no problems to solve, I spend all my time probably going on hikes, traveling, and working on art projects.
+
+I figure that there's enough built-in problems just inside those leisurely pastimes. I wouldn't have to intentionally try to create adversity or problems for myself. The main problem I've had for a while is I didn't want to die. I want to go on and on and on.
+
+And that's still true deep down. Deep down, I still want to be immortal. And I figure that as long as I have an infinite lifespan, I have plenty of time to solve every problem that comes my way.
+
+Unless the problem is the kind of problem that no amount of time passing is really going to solve. So then again, maybe in such situations, it would be nice to have some kind of death option, but not really an actual death option. Maybe go back to [the] Godhead and create or choose an alternate path to go down instead.
+
+Not to actually stop traversing pathways altogether. So, I don't know what happens after one dies, but I'll be honest, I think that once a person dies, they pretty much cease to exist in any capacity, and there's no afterlife for them, just as there apparently was no predecessor life for them. And because they can't remember, people often say, well, maybe it's because they're not supposed to remember past lives, because that would interfere with their current lives.
+
+That's, in my opinion, kind of teleological, instead of just down to earth and bare bones using Occam's Razor. Instead of trying to assign human-centric purpose to why things exist... So I think that it almost seems to make no functional difference whether there was past lives or not, because people can't seem to access them. So it's as if every life is its own isolated event that never continues into a sequel.
+
+Maybe it does, maybe it doesn't. If it were up to me, people would have more control over it than that, and people would have a way of living such that they don't interfere with people's autonomy. They could have simulations where they could maybe override other people's autonomy, but it's just a simulation, dealing with a philosophical zombie, not an actual sentient being.
+
+I don't know if that's the case right now. I don't think it is. I'd really like to figure out what reality is. I don't feel particularly privileged anymore, so maybe I'm coming down from something that I was on for a while.
+
+I was on marijuana for a while. I used to do cannabis almost daily for years, especially during the foundation of KARBYTES, back in 2020 through 2022 and beyond that. And then, like I said, last time I was at the Big Green Thing going to Ramage Peak, I noticed that my weed pen and one of my water bottles went missing. And I'm pretty sure someone intentionally confiscated it, seemingly because they thought it would be good for me to do so.
+
+And to some extent, it has been good for me. My thoughts have been more focused, my short-term memory has been a lot more expansive. But I don't think I'm as happy, to be honest, because I think the weed actually did give me some pain relief.
+
+So I'm just kind of forced to suffer more. And it's not really suffering I'd say is absolutely unbearable suffering, yet. I can  tolerate it, and I take pride in being able to, with dignity, tolerate suffering. Now, if I'm not able to have dignity, I don't know if it's worth it.
+
+Yeah, I really value having composure and control. Maybe people are waiting to see me lose those things. Maybe I'd rather kill myself than actually lose those things.
+
+That's how much I take pride in those things or value those things. That's part of being an actual man. I don't want to be reduced to a woman.
+
+No offense, I have a pretty disgusting model of what a woman and a man is. But a man seems to be more dignified in general. A woman, though, she's only really dignified if a man allows her to be.
+
+And there's always assumed to be a man in a woman's life. But a man can be on his own. Then again, I take that back because no one's really in isolation.
+
+It kind of sucks for everyone at some level. But I think when it comes down to taking pride in one's conduct, I think it's more esteemed to be a man in general. Men are generally treated with higher esteem.
+
+They're given more respect, at least how I've been treated growing up. So maybe people think it's kind of pointless for me to be a transman because when I was growing up, I wasn't treated as a man. And people still to this day oftentimes don't treat me like a man. They treat me like a woman. And they seem to kind of want to reduce me to the worst kind of stereotype of a woman. Someone who has no say over their life, who's on the run.
+
+Yeah, no offense to people close to me and my family, I think, who have some kind of fetish for terrorizing me. Subtly, just by the way they talk to me and about me, it's like they want my life to feel like a horror story. And they're my captors, and they take pleasure in me not being able to run away while I'm stripped of my agency and pride.
+
+So no offense to kind of take pleasure in the thought of them being dead already, because then I could actually relax. Knowing that they're not here to wait for me to fall into misery. It would be easier for me to suffer if they weren't there to enjoy my suffering.
+
+* * *
+
+video_7_name: karbytes_thinking_11august2026_p7.mp4
+
+video_7_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p7.mp4
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_10june2026/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/pig_gorl/)
+
+video_7_transcription:
+
+All right, I'm sitting down on the trail to kind of rest for a bit. I admit that I didn't really sleep last night and I didn't really sleep all that well the past few days. So if I seem like I'm kind of grouchy today, it probably has something to do with being a bit on the sleep deprived side.
+
+And that's compounded by the stress of anticipating also being quite sleep deprived if and when I start working for Amazon. And it's probably gonna be graveyard shift, although I'm accustomed to kind of living on a graveyard shift already and have been doing so since my last few jobs, which have been graveyard shift. At least the one before that was.
+
+My second to last job was FedEx package handling. And I think in recent memory, that was probably my favorite job that I had. So it was technically only part time.
+
+It didn't pay quite as much as the next job after that, which was working as a server tester, apparently, at Quanta Manufacturing. That's kind of near where I apparently will soon be working if I do get this job that I accepted a contingent offer for. It's in Pacific Commons.
+
+I was trying to hide all this information on my websites because I was afraid I would have stalkers. But it seems that already, no matter what I do to try to keep things private, people know so much about me and probably leak private information that I basically have stalkers and there's really no escape from them. So I kind of already feel like in many ways, I will never have control over my data and I'll never have real privacy.
+
+There's a lot of things that I was hoping that I'd have that I might not ever get to have. Some of that is inner quiet; not having to hear other people interrupt my thoughts or interject words and noise into my own thought stream. I'm not talking about just normal noise from my environment.
+
+I usually call it Psychotronic Harassment. There's something going on. There could be some kind of device in my body causing me to hear it or it could be transmitted from a remote source without any kind of device implanted in my body. The thing is, I haven't really gotten much insight into what it could really be since I started hearing it in 2019.
+
+I think it has something to do with my apparent need for correctional intervention or it could just be punitive for all I know. Maybe both. It is the United States. It's not Norway. So United States I think has a reputation for not really taking care of prisoners nor other people all that well.
+
+So I don't mean to say that specific people are to blame. I think the system overall is just kind of faulty and it has momentum to it. Though there's a lot of talk I hear of people wanting things to change for the better and so-called activism going on.
+
+But from my perspective, it doesn't seem that all that much is getting done beyond just virtue signaling. All the heavy lifting seems to be done by the scientists and the engineers for the most part. Maybe some humanitarians.
+
+I don't mean to be small-minded because I probably am just blanket statement making a lot. And even when I talk about people closer to me in my personal life, I jump to conclusions that sound pretty negative about them. That's because I tend to be on the paranoid side.
+
+And I think that's just because that's how I choose to be. I choose to not trust people because I'd like to be on guard and not be taken advantage of. Like I said earlier in another video, I value having control over myself and over my life, having a sense of dignity and not lacking control, not being too dependent on other people.
+
+So it really is painful for me to have to feel so dependent on other people for everything and to have so little say over my life. But rather than succumb to that and act more like some kind of dog, I'd rather act more like a cat who's not confined to a cage and has the freedom to travel wherever it really wants to without restriction. So I try my best to exercise my autonomy, not just to say I have it, but to prove that I have it again and again, because I have to physically exercise to maintain my fitness, which allows me to do things.
+
+It's not just for looks. It's for having the ability to do so many things that I value. I don't even want to imagine what my life would be like if I weren't so able-bodied. So some people have an issue with that because they don't really seem to have as much physical fitness as me, and they want me to consider what life would be like if I wasn't so able-bodied, just so I have more compassion and maybe so I can join the ranks.
+
+I'm really not all about that. I've got a harsher, colder view of reality, and that is the fittest people, I think, have the most fun. And it's just better to be able-bodied than not.
+
+So while I'm able-bodied, I'm gonna try my best to maintain my able-bodiedness instead of try to fit in with other people by forsaking it more. So that's another reason why I don't really have friends, because I think too many people don't really invest enough in their abilities. They kind of just let them atrophy and instead choose to do things that are maybe more accessible and maybe more socially common, and maybe because there's more social incentive to do so for that reason.
+
+So yeah, I kind of think, it's not because people are intentionally trying to forsake their fitness, but I think maybe it's just easier for people to not take care of their fitness for many different reasons, especially if they have children, et cetera. So to me, there's no reason why I would ever have children. It's just so far away from my priorities.
+
+I've talked about this before. What would society be like if everyone was like me? I think people still would have children. I could imagine people like me still having children, but it'd be a very intentional way of having children.
+
+It'd be a lot more progressive. There'd be a lot more community support. It wouldn't just be one or two people taking care of the children.
+
+There'd be a whole community for it. So people won't feel overworked and not able to have their own lives outside of being parents or caretakers. So I think right now, society by default makes it too easy for people to be relegated to jobs and roles where they don't really have much of a balanced life, and they don't have much in the way of actual leisure hobbies and people seem to have a problem with me having leisure hobbies, having this kind of lifestyle, which is affluent compared to them.
+
+So I don't get along with these people, whoever they are. I'm afraid I'm going to have to run into them at my next job. I'm afraid that this job really is a scam and it's for idiots.
+
+It's for people that don't really value their time and they just squander their health just to get some easy money. Realistically speaking, it seems that if I really put my mind to it, I could probably find a better job. So why don't I? Because I'm afraid that whatever the Psychotronic Harassment is, is coordinating against me and they're the government.
+
+The government has a lot of power. They basically have more power than the employers over how I make money, it seems. They have a lot of power to interfere with my personal life.
+
+I'm afraid that they've held me back a lot, quite frankly. So if it seems that I'm slow to make progress on things like my academics and on my career, I think it might have something to do with the Psychotronic Harassment, seriously being that much of an intrusion. Like I said before, I wanted to meditate, but I've been afraid to actually try meditating again because it just seems to be an exercise in futility as I hear a pig_gorl interjecting.
+
+I'm not sure if I'm really getting benefits from attempting to meditate. If I'm listening to pig_gorl, et cetera, whatever the Psychotronic Harassment is, basically trying to distract me and control where my attention goes. So I'm effectively being hijacked, if so severe as it is, which is another reason why I would probably feel suicidal.
+
+And I think the government knows that. But like I said, maybe the government doesn't really mind if I feel suicidal. Maybe they don't mind me killing myself or me being put away in an institution.
+
+They're not people that necessarily like me or think of me as family. They don't really have much of an incentive to keep me around. So if they're appearing to be interested in me at all, maybe it's just to prevent me from having influence in the world because people think that I deserve to be punished more or just made non-existent or put in a place where I don't have much power to interact with society or to have a brand or to level up.
+
+If I were living in a different country, I think my life would be a lot better.
+
+* * *
+
+video_8_name: karbytes_thinking_11august2026_p8.mp4
+
+video_8_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p8.mp4
+
+video_8_transcription:
+
+I only have one minute left. I've really gone through these videos quite quickly, or this memory. I didn't realize I got cut off in the last video.
+
+I was talking about maybe if I moved to a different country like Norway or Canada, I would have an easier time because the Psychotronic Harassment wouldn't be influencing me there. And I wonder if the Psychotronic Harassment is designed to prevent me from actually being able to leave the country or to level up in a meaningful way. So if it seems that I'm slow to make progress on things like studying physics, maybe it's because the pig_gorl intervention is designed to prevent me from being able to concentrate and remember things so that I'm capped at a certain level.
+
+And if that's the case, then it's all downhill from here. And maybe many people are okay with that. And not enough people are for me advancing beyond that.
+
+* * *
+
+video_9_name: karbytes_thinking_11august2026_p9.mp4
+
+video_9_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p9.mp4
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_n/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/journal_karbytes_25july2026/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_k/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/karbytes_unique_identity/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_21september2025/)
+
+(relevant_web_page: https://karlinaobject.wordpress.com/numbers/)
+
+(relevant_web_page: https://karlinaobject.wordpress.com/nature/)
+
+(relevant_web_page: https://karlinaobject.wordpress.com/knowledge/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/about_karbytes/)
+
+video_9_transcription:
+
+All right, well, I was in the process of compressing videos which are on my phone to make more room for more videos, and I deleted some of the original videos which have since been compressed so that I now have approximately fifteen minutes of recording time, and I still have more videos I could compress and delete the originals of, but I'm going to make another video recording before I do that because that takes a while. That takes up to maybe 15 or 20 minutes, seemingly. So I was sitting down on the trail, and I do feel a bit better after having sat for a while.
+
+I did notice my mind actually calm down without really trying to do anything. It's just the magic of the Big Green Thing, being at this part of Ramage Peak Trail, somewhere away from cell phone access... network access, I mean, because there's no signal out here, but surrounded by exactly the kind of Big Green Thing wilderness that I really crave. And as I was sitting here in the early to mid-afternoon sunlight, dappling through the trees, I saw three turkeys walk by, and I enjoyed that.
+
+I like seeing wild animals in their natural habitats harmlessly going about their own business, not interfering with me and me not interfering with them, but us just peacefully coexisting. And I thought about how I really love artificial intelligence and using ChatGPT especially. That's really been so central to my sense of meaning and purpose in life that I would have to say that that's plenty of reason for me to want to keep living.
+
+Even if I did have some kind of crippling disability or ailment, I still think I could find sufficient meaning to keep going. In most cases, I assume, just knowing that I have access to these tools. So what I was saying earlier, there's truth to it, but I think I did exaggerate quite a bit.
+
+And I've been known to do that whenever I make journals or audio recordings. I have a tendency to exaggerate the severity of my suffering or my fears, because that's just something I do. I like to play worst-case scenario just to be on the safe side, while the real me is sitting behind the scenes almost smirking at how over-the-top I'm being.
+
+It's like some part of me is not really all that attached to anything that happens or what I say. And thank goodness for that, because that's the part of me that actually can make real jokes. That's the part of me that can actually take amusement in things.
+
+So when I talk about spirituality, it doesn't sound like that's what it is. Because when I say spirituality, it sounds like I'm trying to make something out of nothing. And the thing I'm talking about isn't particularly cerebral, nor is it particularly animalistic.
+
+It's just... it seems very human, whatever it is, but not in a way that seems to have much of an ego. It just kind of seems like a generic human presence in the background. Maybe I'm making something out of nothing right now just by saying that.
+
+I also did eat some cinnamon rolls that I had stowed away in my backpack, thinking that would help boost my mood and my blood sugar levels so that maybe I'd function better. Maybe that helped. Maybe it didn't. Sometimes I think I perform better when I'm kind of low on blood sugar.
+
+Sometimes I think being too high in blood sugar negatively impacts my cognitive performance by making me too agitated. So maybe I do overeat in general. I kind of have been.
+
+I've been eating kind of as a coping mechanism, thinking that a sweet treat is just what I need to feel better if I'm not feeling all that well. And almost always it works. But if I always do that, well, it's not exactly healthy and it's not exactly affordable.
+
+So I'd rather do things that are more cost-effective than that. So I think honestly the best thing I can do overall is go on long hikes in the Big Green Thing or any other place that allows me to get away from people and civilization. So yeah, I think human civilization makes me stressed out.
+
+No matter how much I say I like it, I think deep down I feel like it wears me down. I feel some kind of animosity towards it and vice versa. It's because I was hearing the Psychotronic Harassment say something earlier today or a few minutes ago that sounds like how I've been kind of thinking for a while, for a long time, for as far back as I can remember.
+
+That really I'm not okay to exist unless there's a significant other in my life. It doesn't necessarily have to be a romantic partner, but it has to be another person that I'm supposed to care about at least as much as I care about myself. And like I said, I don't think it's really possible for me to care about any other being more than I care about myself.
+
+And I don't really think it's necessary or appropriate for me to try to care about some being other than myself more than myself because I am basically the only thing I'm guaranteed to always have for the sake of having control. So again, maybe people are hoping for me to say something more mushy like, "I love you. If it wasn't for my family and friends, I would be nothing. You are the people that make it all worthwhile," but really that's not me. That's not how I sound. I sound a lot more cold and rational sounding if I'm really allowed to just be honest.
+
+Maybe people don't like that and they keep trying to waterboard me, metaphorically speaking, until I say the words they want to hear. And they don't just want me to say the words, they want me to actually mean them. So maybe they're just not satisfied with the fact that I insist on being cold and rational and impersonal sounding and unabashedly egocentric.
+
+That's kind of what I'm trying to promote. Because if everyone was that way, I think we'd still have a pretty functional society, if not even better. Because then people don't have to lie about how they really feel deep down.
+
+They could say it's much better to have a society where we can cooperate and collaborate so we can achieve our egocentric goals. Not at each other's expense, but in collaboration. And we value collaboration and harmony because we value minimizing suffering.
+
+And we do have empathy. That's just kind of built into our hardware. It's not something I think has to be taught.
+
+So people that think that people need to be taught how to be moral, I don't really agree with them. I don't think it's an achievement to really have compassion for other sentient creatures. I think that's just a natural stage of cognitive development.
+
+And I think it's not just relegated to humans. Other animals, especially mammals, seem to have empathy for other beings. But humans act like it's a big deal when they do it sometimes.
+
+Especially those that consider to be kind of on the low-brow side. Maybe a bit primitive in their worldviews. The kind of people that seem to need a divine arbiter of punishment and reward to be coerced into behaving ethically.
+
+Which to me is not really good. That means that without their divine punisher or divine police officer, they would just behave like chimpanzees and do whatever they want with little regard for other people's or animals' feelings. So I wonder, I can go on and on about animal welfare and all that, but I'm not gonna get into that can of worms now.
+
+A lot of this is people only care about something if it appeals to their emotions. So they don't really care as much about a spider getting crushed as they do a squirrel getting crushed. Because maybe the squirrel is more similar to a human than is a spider.
+
+So the more similar it is to you, the more you care about it, presumably because of self-centeredness. And about that, I don't think it necessarily means that I would care about my clone more than some other human. But actually, come to think of it, I probably would have a slight preference, or maybe not a slight preference, a dramatic preference for my own Derivative over anyone else.
+
+Simply because I care about myself more than anything else. But looks alone really aren't it. I'm talking about hypothetical imaginary situation where there's a perfect clone of me right now that's basically just another person at my age who's basically branched off from me moments ago.
+
+Not something that's cloned in a laboratory. That's what I mean by Derivative. That would be the closest thing to me having a significant other that I could say I care about almost as much as I care about myself.
+
+Because that being would presumably think very much like me and be the only worthy heir to the throne of KARBYTES to take over. But even then, I don't know if I would pass the torch on to them. Because the whole thing about KARBYTES is, it's about exactly one person making a legacy unto themselves.
+
+So not even their Derivative, like I said, could take their place. So I'd probably say to the derivative, you have to make your very own version of KARBYTES. Maybe call it something else.
+
+But it can't be a replacement for what I created. So yeah, I'm all about people doing their own thing. And they don't have to really try to make it unique just by the fact that it takes up space, particular set of coordinates, is sufficient to make it unique.
+
+They don't have to try too hard to sound original. At a certain point, I think we exhaust possibilities for originality. Maybe there is only a finite amount of permutations of information that we could conceive of and express.
+
+Maybe not. But I think, if you think about it, if there is infinite amount of time [and] energy, you could make an unlimited amount of patterns made out of digits. With just nine digits, or even just two digits.
+
+Zero and one. It's all about just having enough computational capacity to store those things and to process them. It seems that humans are kind of currently capped at a certain capacity.
+
+So for the time being, we have to operate within those limitations. But I do like to see beyond it and conceive of ways to expand indefinitely and to find ways to bypass the so-called heat death of the universe. I think about that.
+
+These are the kinds of things I enjoy thinking about more than the other stuff I was talking about recently in these videos I made today. I don't like talking about my personal problems. I'd rather just move on quickly from those things and focus more on metaphysics and physics.
+
+Sometimes philosophy. But really, I think it all could be best described as metaphysics because it's...
+
+* * *
+
+video_10_name: karbytes_thinking_11august2026_p10.mp4
+
+video_10_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p10.mp4
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/journal_karbytes_05august2026_b/)
+
+video_10_transcription:
+
+All right, I appear to have approximately 10 minutes of recording time now that I compressed another video that was over one gigabyte in size, but there's another batch process of compressing videos going on in the background of this recording, which might be maybe eating up more memory than it looks like, so I might prematurely run out of memory like I did last video. I got cut off the middle of saying something about physics or metaphysics and talking about how physics, I think, requires more cognitive functioning than just plain old metaphysics because it involves symbols and logical rigor and mathematics, so it's not just armchair philosophy and it's not just being creative. I do enjoy being open-ended and creative probably the most and not trying too hard to fit inside of a formal system, but at a certain point I do think that I ought to really study hard science more regularly.
+
+I can already tell that I don't really get much support to do so from the general public or for who I imagine my enemies are. I like to call my enemies people that are opposed to anything that I do. I call them my enemies, so just for the sake of convenience, I'll call them enemies.
+
+It seems that my enemies don't like it when I make studying physics or anything like that a serious priority in my life because they think that there's no purpose for me doing that because it's not about immediately paying the bills, nor do I really intend to study those things for the sake of getting a career necessarily. So a lot of these times the people that are my enemies, they don't think there's any reason why I should do something unless I'm being sponsored explicitly to do so by someone other than myself. So if I decide I want to spend my free time studying physics instead of making pornography, for instance, I think they're more likely going to support me making pornography than studying physics because pornography seems to appeal to people more.
+
+It demands less of them. But that's aside. I'm not trying to study physics for the sake of just showing off how smart I am.
+I'm doing it because I really want to actually understand how reality works and I'd like to be able to take part in discussions about it and to appreciate discussions about it more so I don't feel so left out. And yeah, a lot of it is because I want to be part of what feels like an exclusive club almost of people that seriously dedicate themselves to actually understand these things. And it's actual work and it's a lot harder work than working an Amazon warehouse.
+
+So it's more to me real work than a lot of what is considered to be paid work that I can realistically expect to do soon. So there's a conflict in that. Sometimes I hear people talking about how they work so hard at their manual labor job when to me it's something that looks very easy because what I would ideally do in my free time is a lot more difficult, a lot more demanding of my brain capacity and maybe even also of my physical capacity.
+
+I might want to do athletic things like go on very long walks, maybe something even more extreme. But the idea is I think that people that don't make very much money seem to not really have much leftover time or energy to do much other than just vegetate in front of the television. But that's just what I assume.
+
+I'm trying to make it such that even if I'm poor I can still pursue these high-brow things and these apparently affluent activities because I really don't have many major expenses. I basically work to be frugal and careful with my time management so I can prioritize the things that actually matter to me. It just feels like I don't really honestly get social support to do those things.
+
+So I to have keep them a secret. And that's kind of where I'm trying to get at right now is part of the reason why I go on hiatus or been trying to go on a special hiatus where I have a transformational period is because I'm trying to get to a point where I can just be okay not having really much of the way of support to do these challenging things and to feel like not only am I not getting support, people are basically trying to discourage me and maybe even physically prevent me from advancing. But still continue to forge on and make the effort which I think my enemies would find to be a waste of communal resources because they seem to regard my body as communal property and the energy and the money that I receive as input as almost stolen property that I don't deserve to have.
+
+So if I seem to be outputting what looks like an unusually high amount of labor, they assume that I stole input in order to do that when really maybe it's just because I'm better at managing what I receive. It could be that a dollar that I receive is multiplied in value versus a dollar that they receive is not really multiplied as much or maybe even is less than a dollar when it goes to them. So I'm getting carried away with hypothetical abstract ideas.
+
+I'm kind of being insulting. I tend to do that at times. The thing is, I'm not trying to kill my ego.
+
+I'm not really trying to kill anyone else's ego. I'm just saying what's on my mind. So I'm trying to be positive and I'm trying to be supportive and anyone who undertakes something that's about personal development, I'd like to be supportive of them instead of saying they're not doing good enough or they should have got started sooner or they're not doing it the right way.
+
+The fact that they're even trying is worth something. But what really matters, what I think is really commendable is when they seriously level up and actually show the signs of advancing beyond a beginner level because then that means they actually did work really hard, presumably. And I don't think enough people seriously actually do meaningful work.
+
+They just kind of do what they think they have to do to make ends meet and complain all the while and I really don't want to partake in that kind of society. So if I have to be around people like that, I'd rather try and talk as little as possible. So I can't help but have a little bit of an apprehension about the kinds of people I'll run into because I assume that they probably don't work as hard as I do and they probably brag more than I do.
+
+Ironically, I brag a lot through the internet but in person I am quite humble and I usually try not to brag or talk about myself to other people unless they ask. I just really don't talk that much in general so maybe people think I have very little to say. Earlier today I was thinking about how it's important for me to not assume that I have some privileged position with respect to all other beings that exist.
+
+From my perspective it does seem like I am definitely the most important being but from another being's perspective I don't think that's the case if they have a perspective. So I really only know my own experience which is why I tend to not spend much time considering other points of view because for all I know they're just hypothetical. They're not proven to exist.
+
+The only thing that is proven to exist for me is my own point of view. That's just the way it is. Even if I were to somehow remote into someone else's perspective that would still be my perspective so there's no way out of this solipsism.
+
+I'm just kind of saying things I've already said before in KARBYTES. I'm not sure if there's anything new I could say right now. I'm just trying to take the conversation topics away from the rather low-brow stuff that I was saying earlier and emphasize how after a certain point along this hike it started to get a bit more high-brow and I assume if I spent enough time out here for a long enough time I would actually start to have even better thoughts.
+
+So there is something to being out in the Big Green Thing that allows me to kind of have my thoughts settle and new things [emerge].
+
+* * *
+
+video_11_name: karbytes_thinking_11august2026_p11.mp4
+
+video_11_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p11.mp4
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/journal_karbytes_29october2024/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/journal_karbytes_31october2024/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/journal_karbytes_27october2024/)
+
+video_11_transcription:
+
+Alright, just testing here. I've made it to what looks like a ridge where I can actually see Ramage Peak, which also overlooks the wooded part of the Big Green Thing that I just emerged from on the Castro Valley side. I just wanted to make sure I had enough recording capacity for later on today.
+
+Instead of making long-winded recordings of myself talking, I'm going to just try to make shorter videos now. Because it's getting later in the day, I took my sweet, merry time to make sure that I got my thoughts all settled. Now I'm ready to go a little faster.
+
+Mind you, I was a little bit high on some shrooms, so maybe the shrooms are starting to wear off a bit now that I had some food. I don't feel like I'm as slow now. It's getting kind of ridiculous.
+
+Yeah, and also, on and on I can go about sleep deprivation. I really don't want to go into that subject. It's a contentious issue.
+
+I've long been contentious. I call it "Battle of the Beds" at one point. The quest to actually be able to sleep for a decent amount of time is quite an undertaking sometimes, especially if one is not properly housed.
+
+That's something that doesn't really seem all that much of a big deal now, but it might be in the future. At least I have the experience of what it's like to kind of practice being unhoused so that it's not entirely foreign to me in case it actually happens for real. As in, if I really do lose access to housing.
+
+So the times in the past when I was camping outside more, that was because I was trying to get some privacy and some space so I can just be more on my own without having really the means to afford my own place to rent yet.
+
+* * *
+
+video_12_name: karbytes_thinking_11august2026_p12.mp4
+
+video_12_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p12.mp4
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/journal_karbytes_02august2026/)
+
+video_12_transcription:
+
+All right, so I have 18 minutes left of recording time unless I compress whatever I'm recording so that I have a little bit more time to record. I'm now at the base of Ramage Peak and I'm just walking along the big dirt road. This is usually a point where I oftentimes would turn around. Because I didn't bring the car today and just simply walked all the way from The Burrow to here, I could just keep on going and not worry about getting in trouble for the car being parked in the parking lot at Chabot Staging Area past curfew. I was complaining last time I was here that I would have to turn around to avoid that punishment but now today I could just keep going all the way to Rocky Ridge Radio Tower which will be the first time I ever traverse that length. And I also am going to try to go beyond that and go all the way to the other side of Las Trampas Wilderness which I haven't really been to in what feels like maybe four or five months to go to a part that's got Eagle Peak and also it goes down towards Danville or towards Walnut Creek so I'll see how I feel once I get there and just go whichever direction seems most appealing.
+
+* * *
+
+video_13_name: karbytes_thinking_11august2026_p13.mp4
+
+video_13_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p13.mp4
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_13july2026/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_01august2026_k/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/journal_karbytes_21june2026/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_05july2026/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/journal_karbytes_05july2026/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_07july2026/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_18july2026/)
+
+(relevant_plain-text_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_70/main/karbytes_thinking_09july2026_p3_[video_transcript].txt)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_22july2026/)
+
+video_13_transcription:
+
+We crawled all the way from The Burrow to the base of Ramage Peak. This is it. What we've been crawling to.
+
+So much for trying to make everything just plain text now. I think we're seeing in more dimensions than just symbols in sequence.
+
+* * *
+
+video_14_name: karbytes_thinking_11august2026_p14.mp4
+
+video_14_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p14.mp4
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/the_big_green_thing/)
+
+video_14_transcription:
+
+Well, I don't think it's possible for me to transcribe the sound of flowing water in this creek, but I can at least try to record it. Also, it has a nice color to it. Well, I should continue on so I can continue to get some good photography of the Big Green Thing. 
+
+This is Rocky Ridge Trail.
+
+* * *
+
+video_15_name: karbytes_thinking_11august2026_p15.mp4
+
+video_15_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p15.mp4
+
+video_15_transcription:
+
+I don't know if you can see it very well from here, but there's a bunch of turkeys down there. 
+
+Well, on my way to Rocky Ridge Radio Tower.
+
+* * *
+
+video_16_name: karbytes_thinking_11august2026_p16.mp4
+
+video_16_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p16.mp4
+
+(relevant_video_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/the_big_green_thing_11august2026_p7.mp4)
+
+(relevant_plain-text_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/chatgpt_karbytes_11august2026_p0.txt)
+
+video_16_transcription:
+
+All right, I have about 15 minutes left of recording time, and it's approximately 7:05PM Pacific Standard Time on 11_AUGUST_2026. I'm just about to get to the part of the trail that gets very steep. I'm pretty sure that I'll be soon walking back to Castro Valley in the darkness after the sun sets, and I'm probably not going to go to the other side of Rocky Ridge Radio Tower to the east part of Las Trampas Wilderness today because I kind of already got a bit of a late start today.
+
+I was supposed to leave closer to just before sunrise, but I actually didn't leave until around 9 or 10 a.m. this morning, and also I have an appointment tomorrow, a pre-hire appointment in Fremont. Maybe it's not that big of a deal. Maybe I can go ahead and maybe stay here a little longer.
+
+I just don't want to over-exert myself and or be late to the appointment, but the appointment is at 1 p.m. tomorrow, so I think I'll have plenty of time to get there. It would be nice to be able to sit down and process these videos on my laptop in The Burrow before I go to the appointment, but I might not be able to do that, so we'll see. Really, I'm not that tired.
+
+I thought I would be more tired by now, but I seem to be quite energized. Earlier today, I was just talking about random things were on my mind that kind of seemed a bit out of date; just old residue. After getting enough exertion, I started to get a bit tired, and I was breathing a lot of oxygen, so I really think that did me some good.
+
+And also, just beholding the beauty of nature, especially on the north side of Ramage Peak, really opened up this experience. As is evidenced by the videos, this side is definitely the more scenic side of the Big Green Thing. Well, we're just about to get to the part of the trail that branches to the right.
+
+The right part is Rocky Ridge Trail. Over there is some maintenance road, and down there goes a long way to Moraga and to King's Canyon. Well, here it is.
+
+Just to be sure, I'll show a Big Green Thing version of this video which doesn't have me talking in it.
+
+* * *
+
+video_17_name: karbytes_thinking_11august2026_p17.mp4
+
+video_17_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p17.mp4
+
+video_17_transcription:
+
+I'm going to be honest, I'm kind of tired all of a sudden. The sun has already set, I only have one water bottle that's completely filled. The other three are empty, so I'm considering just resting for a minute before heading down to Bollinger Canyon park entrance to get some water, and then going all the way back to Castro Valley along Ramage Peak Trail, or I can just try to see if I can make it on one water bottle. So I'm just going to rest for a minute, and then in that time I'm resting, decide what I should do.
+
+* * *
+
+video_18_name: karbytes_thinking_11august2026_p18.mp4
+
+video_18_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_11august2026_p18.mp4
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_13august2026_b/)
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_14august2026_c/)
+
+video_18_transcription:
+
+All right, I'm still at the Big Green Thing. It's about 10 p.m. Or actually, it's I think now 11PM Pacific Standard Time on 11_AUGUST_2026. I spent some time kind of just lying around at the top of the hill near the radio tower because I was tired and a little bit sore and thought I would go down the hill to get some water but I decided against it and thought I would probably be fine with just the last water bottle that I have, provided that I keep it moving and head back to Castro Valley along the trails. Of course, it's scary, but I'm really not that worried.
+
+I think it's fairly safe of a place to be and I was watching some videos about mountain lions and the people were saying in the video that mountain lions rarely actually attack humans. But that doesn't mean they don't actually attack humans at times and even kill them or injure them. I'm just gonna try not to think about it. Also what I meant to say with this video is, originally, I was gonna try to just only transcribe the videos and keep the text part that comes out of that but not keep the videos. I decided to keep all the videos. There was a time today when I thought I would only keep maybe the highlight videos, but then I thought that would look kind of incomplete if someone looks at the micro-directory, which is gonna have this collection in it.
+
+It's gonna look like there's missing numbers and I'd rather it kind of be complete I know it's gonna be a rather large micro-directory because of all those videos. Oh well. I kind of have been conflicted with my goals with this micro-directory because part of me wants to keep it very streamlined and actually go for the minimalist challenge of trying to make everything literally plain-text or source code only. But instead I ended up creating a bunch of videos, not just of me talking. I also created videos of just the Big Green Thing without any talking from me and I think those videos complement each other because some of it is me talking and some of it is just the Big Green Thing. So I think what I'll do is probably make a web page that has just the big_green_thing videos in it and then another web page that has just the karbytes_thinking videos in it. And then have ChatGPT analyze both web pages. First I'll feed it the big_green_thing and then I'll feed it the karbytes_thinking because I think the karbytes_thinking is a bit corrupt, especially in some of the earlier videos where I was just entering the Ramage Peak trailhead around Chabot Staging Area. But to be honest, though, I thought I heard people at the golf course saying some pretty rude things to me or about me as I was passing by, but I think that could have just as easily been Psychotronic Harassment causing me to mishear what people's voices were saying and it probably wasn't because those people were saying something about me. It was probably because the Psychotronic Harassment filters what I hear so that it sounds like people saying rude things. But that really was upsetting; I'm not gonna lie. And also walking along Redwood Road is scary because cars come rushing by. I'm a bit worried about that tonight because I'll be walking along that stretch of road. It's dark. People might be rushing down it and not think there's someone on the road, especially late at night. I think it'll probably take me several hours to get back home. I want to be able to get to my appointment on time, which is at 1 p.m. tomorrow in Fremont at an Amazon warehouse to do a drug test. I figure it's not that bad of a job.
+
+I've done this kind of job before. It wasn't advertised as being seasonal. So I think that's a good thing actually because I might already be considered to be a permanent employee. I don't know. I don't want to get carried away before I even get started or even officially am offered the job. So I'm not trying to hype things up too much. I'm trying to keep how I make money mostly kind of on the down-low.
+
+I don't really want to call attention to it too much because things can change unexpectedly and I could suddenly become unemployed once again. So I don't want people to think that I all of a sudden have a reliable source of income when I really actually don't. It was told to me today that it is the flexible shifts like I thought it was where it's not a set schedule. Unfortunately instead it's you get to choose your shifts. But the catch is you better grab the shifts before they fill up and you better make sure you get the minimum number of hours per week. Otherwise, you're fired! So, yeah, it's probably sooner or later I'm not gonna be able to get shifts. Maybe that's how they kind of covertly fire people. I don't know.
+
+I just know that it's kind of a big corporate soulless business to some extent maybe it's not as bad as I say it is or as bad as other people say it is. I'm not gonna complain. I'm gonna try to from now on just try to have an open mind and not just say negative things because other people said negative things. I'd rather just speak from my own experience. In the past it's hard to tell whether or not my negative experiences at the warehouse was because of me or because of other people or the way that part of the warehouse ran. I wasn't exactly all that organized back then and I was kind of I'm not gonna say I was mentally ill per se but I wasn't really living as well as I should have been.
+
+I was still camping outside mostly because I wanted to be independent and live on my own and I was in such a rush to do that that I kind of stressed myself out and also I was having issues with getting paid. For some reason my bank wasn't accepting the direct deposits. So hopefully that won't happen again, but it probably could I mean it would... I mean, it's likely if it happened the last time I worked there, there's a chance it'll happen again. So that's annoying, especially if that's my only source of income. So it kind of seems like it shouldn't be my only source of income. That's not enough really to live on. So what kinds of people actually go for those jobs? People that might have multiple jobs or people that maybe are freeloaders. So it's not exactly something that I feel all that proud to announce as a job that I have because it seems like more of a part-time job.
+
+It's pretty chintzy because it's not a set schedule. And because it seems like it's some kind of rigged game. So maybe it's for people that are antisocial to some extent; kind of like me. Well, I didn't mean to go off on a rant about that. I just wanted to talk about KARBYTES and data management. Well, here it is. I made another video.
+
+I didn't think I was gonna make another video after the last one I made. But I decided to make another video. I should probably head down the hill.
+
+* * *
+
+video_19_name: karbytes_thinking_12august2026_p0.mp4
+
+video_19_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_12august2026_p0.mp4
+
+video_19_transcription:
+
+All right, have 14 minutes left of recording time. It's almost 1AM Pacific Standard Time on 12_AUGUST_2026. I'm walking past Ramage Peak... actually I'm south of it now, and I just wanted to comment on something I noticed about the weather here.
+
+I noticed that there's clouds on the Castro Valley side where the trees are, but over on the Las Trampas Wilderness side and around Ramage Peak it's very clear sky. No moon in the sky tonight, just stars, but over to the south it's kind of dark because of the cloud layer. I noticed it from my house too when I am at home at 18618 Crest Avenue, Castro Valley, California, 94546.
+
+I noticed that, when I look towards the Big Green Thing from there, it looks very dark at night. I think that might have something to do with that cloud layer. So it's kind of like a barrier I'm about to go through.
+
+Well in the last video I was talking about how scary it is to go along the trails. This is what I mean. What I'm about to go into is the scary part.
+
+Everything before now, or the part I'm talking about, I wouldn't really say is all that scary to me because this is like, I like to call it the Blair Witch Project style kind of woods. It has an intrigue all of its own though. For some reason I'm very fascinated with this area, especially during the daytime, but nighttime it's creepy.
+
+Maybe part of me actually likes the creepiness of it, day or night, as long as I'm safe of course. Like I said I won't worry about anything because worrying is not going to stop bad things from happening.
+
+* * *
+
+video_20_name: karbytes_thinking_12august2026_p1.mp4
+
+video_20_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_12august2026_p1.mp4
+
+(relevant_web_page: https://karbytesforlifeblog.wordpress.com/journal_karbytes_14august2026_a/)
+
+video_20_transcription:
+
+There's no way out but through. I am in the Blair Witch part of the [Big] Green Thing. Sometimes I make loud noises to be scary to possible predators.
+
+[karbytes proceeds to make loud monosyllabic vocalizations into the forest that sound like, "Blat!"]
+
+Like that. I just do that or say, "You better watch it, George!" That's what I say. I just say, "You better watch it, George!" For whatever reason, I came up with that phrase that I just kind of say whenever I feel a little bit anxious about whatever could be to the side of me. This is definitely the scary part of the [Big] Green Thing. I'll be honest, this is not fun.
+
+I mean, it is fun but I kind of just want to be able to get back to The Burrow already. This is nothing new. I felt this way many times before where I just want to get to my destination but I know I have miles to go before I get there. And I won't be able to sleep tonight, it looks like, because I want to get shit done and I want to get to the appointment on time and I don't want to oversleep my alarm.
+
+I noticed that, even though I have an app on my phone called The Loudest Alarm Clock, I seem to sleep through the alarm even though it's supposed to be on full blast. So I don't know what to do about that other than just try to get in the habit of making my sleep schedule and my work schedule coordinate so that I don't even have to worry about setting an alarm. I don't know if I can really do that long term because I don't know how much say I'll have over my schedule. So that's just very long term compared to what I expect to be the rest of this year.
+
+Anyway, I just gotta keep putting one foot in front of the other. Oh shit! Fuck! I'm sick and tired of slipping on little things and the pain of a rock in my shoe that I don't want to take out because I don't want to stop what I'm doing to take off my shoe because that puts me in a vulnerable position. So I just have to suck it and just deal with it for the rest of the walk.
+
+And by the time I get to Chabot Staging Area, there's no nice car waiting for me to take me home. I have to walk along this dangerous road. So yeah, it's a little bit torturous.
+
+It feels kind of like almost like a masochistic exercise. It's my fault. I put myself in this situation.
+
+I take full responsibility for it. I just feel the need to do these things sometimes. But this especially, like I had wanted to get this off my bucket list.
+
+This is something major of the Big Green Thing... I say it a lot... [I mean] The First Official Major KARBYTES Hiatus of Summer 2026.
+
+This is kind of the epitome of the kinds of things I idealized doing. I had a vision of myself doing something like this. But it's one thing to have an idea of it. It's a whole other thing to actually implement the idea in practice. So the ideal is kind of devoid of a lot of the impractical aspects. But the ideal is what made me want to go out here.
+
+And I'm glad I did because I got a chance to document this. And already I put some videos in the private GitHub repository associated with this particular phase of that hiatus. So they're safe in the cloud for now.
+
+But I don't really have internet access at this location because this is the remote part of the Big Green Thing. This is the dark scary part. And I look above me and it looks like I'm starting to be in the cloud layer.
+
+I've got to be careful because there's parts along this path that are kind of hard to see. The path is very obscure. I got kind of lost last time.
+
+Not lost, but I took a wrong turn and ended up going an extra loop basically. I went all the way up to Dinosaur Ridge along some maintenance road instead of along Ramage Peak trail. So I just have to watch where I'm going.
+
+Anyway I should probably get my flashlight back on. The flashlight automatically turns off whenever the camera is on. So I need to basically stop this recording so I can turn the camera back on... I mean the light back on. It's kind of slippery over here. So pardon me if I seem grouchy.
+
+I'm sleep deprived. I'm a little bit in physical pain. And I'm scared for many different reasons.
+
+I'm going back to territory where I had some rather unpleasant discourses. So maybe a bit of depressing thoughts. It's kind of an unpleasant thing.
+
+But I try to generate some positive content throughout this trek so that I can take all those videos, consolidate them into one object, and see that it's the same person throughout the entire experience even though the person seems to be in different states of mind throughout that entire trek. But then again, I can say that it's not the same person and that maybe there's different versions of me throughout this trek. So I'm not the same person I was when I came in.
+
+It kind of feels that way also.
+
+* * *
+
+video_21_name: karbytes_thinking_12august2026_p2.mp4
+
+video_21_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_12august2026_p2.mp4
+
+video_21_transcription:
+
+It is approximately 2:46AM Pacific Standard Time on 12_AUGUST_2026. I'm laying down on part of the trail because I'm very sore. My feet are very sore. And I'm very tired. And I have a long ways to go. And I was just thinking about dying of exhaustion.
+
+* * *
+
+video_22_name: karbytes_thinking_12august2026_p3.mp4
+
+video_22_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_73/main/karbytes_thinking_12august2026_p3.mp4
+
+video_22_transcription:
+
+All right, it is approximately 6AM or 7AM Pacific Standard Time on 12_AUGUST_2026. I'm at Horsey Hill after having traversed the Big Green Thing all night. I see there's some what appears to be ripened blackberries that come around this time of year.
+
+I think I'll take one.

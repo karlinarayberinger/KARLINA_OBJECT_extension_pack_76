@@ -1,12 +1,22 @@
 /**
  * file: journal_karbytes_03september2026_p0.txt
  * type: plain-text
- * date: 03_SEPTEMBER_2026
+ * date: 04_SEPTEMBER_2026
  * author: karbytes
  * license: PUBLIC_DOMAIN
  */
 
 https://raw.githubusercontent.com/informationcrystals/projects/main/temp.txt
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/index.html
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/sub-index_page_210.html
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/sub-index_page_211.html
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/sub-index_page_212.html
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/sub-index_page_213.html
 
 https://raw.githubusercontent.com/informationcrystals/projects/main/sub-index_page_A5.html
 
@@ -60,6 +70,20 @@ https://raw.githubusercontent.com/informationcrystals/projects/main/chatgpt_karb
 
 https://raw.githubusercontent.com/informationcrystals/projects/main/chatgpt_karbytes_03september2026_p22.txt
 
+https://raw.githubusercontent.com/informationcrystals/projects/main/chatgpt_karbytes_03september2026_p23.txt
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/chatgpt_karbytes_03september2026_p24.txt
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/chatgpt_karbytes_03september2026_p25.txt
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/chatgpt_karbytes_03september2026_p26.txt
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/chatgpt_karbytes_03september2026_p27.txt
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/chatgpt_karbytes_03september2026_p28.txt
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/chatgpt_karbytes_03september2026_p29.txt
+
 https://raw.githubusercontent.com/informationcrystals/projects/main/journal_karbytes_03september2026_p0.txt
 
 https://raw.githubusercontent.com/informationcrystals/projects/main/journal_karbytes_03september2026_p1.txt
@@ -72,6 +96,6 @@ https://raw.githubusercontent.com/informationcrystals/projects/main/karbytes_in_
 
 https://raw.githubusercontent.com/informationcrystals/projects/main/unlisted_web_page_chatgpt_karbytes_03september2026_a0.html
 
-https://raw.githubusercontent.com/informationcrystals/projects/main/unlisted_web_page_chatgpt_karbytes_03september2026_a1.html
-
 https://raw.githubusercontent.com/informationcrystals/projects/main/unlisted_web_page_journal_karbytes_03september2026_a0.html
+
+https://raw.githubusercontent.com/informationcrystals/projects/main/unlisted_web_page_journal_karbytes_03september2026_a1.html
