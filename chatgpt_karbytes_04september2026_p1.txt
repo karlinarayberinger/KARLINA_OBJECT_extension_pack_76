@@ -1,0 +1,198 @@
+/**
+ * file: chatgpt_karbytes_04september2026_p1.txt
+ * type: plain-text
+ * date: 04_SEPTEMBER_2026
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following is a plain-text transcript of a conversation between karbytes and ChatGPT 5.6 Sol Work Mode which took place between 11:59PM Pacific Standard Time on 03_SEPTEMBER_2026 and 11:59PM Pacific Standard Time on 04_SEPTEMBER_2026.
+
+* * *
+
+karbytes:
+
+Examine the following micro-directory web page to determine whether or not each hyperlink which is supposed to link to a raw GitHub file inside of the GitHub repository named KARLINA_OBJECT_extension_pack_76 actually links to the correct file (and ensure that every file inside of that GitHub repository has a corresponding full-URL hyperlink on that micro-directory web page):
+
+https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_76/
+
+Also verify whether or not every hyperlink on that micro-directory web page whose visible text is simply an asterisk enclosed in parentheses links to the correct web page.
+
+Finally, point out any discrepancies you notice while completing the requested task.
+
+ChatGPT:
+
+[Worked for 8m 6s]
+
+## Audit result
+
+The [micro-directory page](https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_76/) is almost correct, but it contains one broken raw-file hyperlink and one ordering discrepancy.
+
+### Raw GitHub files
+
+The [repository’s current `main` tree](https://api.github.com/repos/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/git/trees/main?recursive=1) contains 73 files, and the directory page contains 73 pack-76 raw-link entries.
+
+* 72 hyperlinks have the exact correct repository path and returned HTTP 200.
+
+* One entry displays the correct URL but has an incorrect underlying `href`.
+
+Incorrect `href`:
+
+[preformatted_text]
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/github_karbytessupporter_profile_pinned_repositories_43september2026.png
+
+[end preformatted_text]
+
+It returns HTTP 404. The `43september2026` portion should be `04september2026`.
+
+Correct destination:
+
+[github_karbytessupporter_profile_pinned_repositories_04september2026.png](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/github_karbytessupporter_profile_pinned_repositories_04september2026.png)
+
+Therefore, the correct file is visibly listed but is not presently reachable through its directory-page hyperlink. Fixing that single `href` will make the raw-file coverage complete.
+
+The separate header `image_link` into `KARLINA_OBJECT_extension_pack_31` is intentional and valid; it returned HTTP 200.
+
+### `(*)` hyperlinks
+
+There are 13 `(*)` hyperlinks.
+
+* All 11 clearnet destinations are correctly assigned and returned HTTP 200.
+
+* The four GitHub Pages destinations were byte-for-byte identical to their associated raw HTML copies.
+
+* The seven WordPress destinations have the correct slugs and page titles.
+
+* The two `.onion` assignments match the addresses embedded in their associated raw HTML files. Live availability could not be verified without Tor.
+
+[preformatted_text]
+
+| Associated raw HTML file                                                   | `(*)` destination                                                                                                                  | Result                           |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| `unlisted_web_page_KARBYTES_BLOG_APPS_github_hosted_website_index.html`    | [KARBYTES_BLOG_APPS](https://karlinarayberinger.github.io/KARBYTES_BLOG_APPS_github_hosted_website/)                               | Correct                          |
+| `unlisted_web_page_chatgpt_karbytes_03september2026_a0.html`               | [chatgpt_karbytes_03september2026_a0](https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_03september2026_a0/)              | Correct                          |
+| `unlisted_web_page_chatgpt_karbytes_04september2026_a0.html`               | [chatgpt_karbytes_04september2026_a0](https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_04september2026_a0/)              | Correct                          |
+| `unlisted_web_page_journal_karbytes_03september2026_a0.html`               | [journal_karbytes_03september2026_a0](https://karbytesforlifeblog.wordpress.com/journal_karbytes_03september2026_a0/)              | Correct                          |
+| `unlisted_web_page_journal_karbytes_03september2026_a1.html`               | [journal_karbytes_03september2026_a1](https://karbytesforlifeblog.wordpress.com/journal_karbytes_03september2026_a1/)              | Correct                          |
+| `unlisted_web_page_karbytes_darknet_websites_root_directory_web_page.html` | `qkbr…iegsi3yd.onion`                                                                                                              | Correct assignment; Tor required |
+| `unlisted_web_page_karbytes_first_onion_web_page.html`                     | `ijnq…wpj6v4yd.onion`                                                                                                              | Correct assignment; Tor required |
+| `unlisted_web_page_karbytes_full_genome.html`                              | [karbytes_full_genome](https://karbytesforlifeblog.wordpress.com/karbytes_full_genome/)                                            | Correct                          |
+| `unlisted_web_page_karbytes_social_media_posts_koep76.html`                | [karbytes_social_media_posts_koep76](https://karbytesforlifeblog.wordpress.com/karbytes_social_media_posts_koep76/)                | Correct                          |
+| `...precision_batches_index.html`                                          | [precision-batches index](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches/)                   | Correct                          |
+| `...precision_batches_extension_0.html`                                    | [precision-batches extension 0](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_0/) | Correct                          |
+| `...precision_batches_extension_1.html`                                    | [precision-batches extension 1](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/) | Correct                          |
+| `unlisted_web_page_mdisc_karbytes2026_8.html`                              | [mdisc_karbytes2026_8](https://karbytesforlifeblog.wordpress.com/mdisc_karbytes2026_8/)                                            | Correct                          |
+
+[end preformatted_text]
+
+### Other discrepancies
+
+The directory states that files are listed in repository order, but this three-file block is out of order.
+
+Repository order:
+
+1. `...precision_batches_extension_0.html`
+
+2. `...precision_batches_extension_1.html`
+
+3. `...precision_batches_index.html`
+
+Current page order:
+
+1. `...precision_batches_index.html`
+
+2. `...precision_batches_extension_0.html`
+
+3. `...precision_batches_extension_1.html`
+
+Also, the introductory paragraph inside [`unlisted_web_page_chatgpt_karbytes_03september2026_a0.html`](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/unlisted_web_page_chatgpt_karbytes_03september2026_a0.html) claims that `chatgpt_karbytes_03september2026_p0.txt` resides in the `extension_pack_75` micro-directory. That file actually resides in `extension_pack_76`; repository 75 does not contain it.
+
+No other raw-link or `(*)`-destination discrepancies were found.
+
+If helpful, I can set up “Recheck extension-pack 76 links” so later repository changes do not cause the page to drift out of sync.
+
+karbytes:
+
+What I would like you to do now (just to be extra thorough with the interim auditing of the KARLINA_OBJECT_extension_pack_76 micro-directory) is the following…
+
+On the following web page, verify whether or not the sub-index pages whose index numbers are numbered 210 to 214 contain all of the aforementioned hyperlinks with the one exception being that the links may appear in a different order than how they appear in the respective micro-directory (i.e. KARLINA_OBJECT_extension_pack_76) and each of the sub-index hyperlinks display the full URL they point to as their visible components:
+
+https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/
+
+ChatGPT:
+
+[Worked for 3m 42s]
+
+The audit passes: sub-index pages 210–214 collectively contain the complete, correct `KARLINA_OBJECT_extension_pack_76` hyperlink inventory.
+
+[preformatted_text]
+
+| Sub-index page                                                                                                                  | Hyperlinks |
+| ------------------------------------------------------------------------------------------------------------------------------- | ---------: |
+| [210](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_210.html) |         21 |
+| [211](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_211.html) |         21 |
+| [212](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_212.html) |         21 |
+| [213](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_213.html) |         20 |
+| [214](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_214.html) |          4 |
+| **Combined**                                                                                                                    |     **87** |
+
+[end preformatted_text]
+
+Those 87 unique hyperlinks consist of:
+
+* All 73 correct raw-file URLs from `KARLINA_OBJECT_extension_pack_76`.
+
+* All 13 destinations represented by `(*)` links on the micro-directory.
+
+* The `extension_pack_76` micro-directory page itself.
+
+Additional verification:
+
+* No required URLs are missing.
+
+* No unexpected URLs are present.
+
+* No URLs are duplicated.
+
+* Every hyperlink’s visible text is the complete URL stored in its `href`.
+
+* The five sub-index links on the [parent index page](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/) also display their complete destination URLs.
+
+* All 85 clearnet destinations returned HTTP 200.
+
+* The two `.onion` URLs match the intended addresses but were not live-tested without Tor.
+
+* Differences in ordering do not affect completeness.
+
+One important nuance: the sub-index pages contain the correct URL ending in:
+
+[preformatted_text]
+
+github_karbytessupporter_profile_pinned_repositories_04september2026.png
+
+[end preformatted_text]
+
+They do **not** reproduce the erroneous `43september2026` `href` currently present on the micro-directory page. Therefore, the sub-index collection matches the correct repository inventory, although it differs by that one URL from a strictly literal extraction of the micro-directory’s presently broken `href`.
+
+No other discrepancies were found.
+
+karbytes:
+
+Note that this interim audit of the KARLINA_OBJECT_extension_pack_76 micro-directory has been completed as of 6:01AM Pacific Standard Time on 04_AUGUST_2026.
+
+ChatGPT:
+
+Noted. The interim audit is complete as of 6:01 AM Pacific Standard Time.
+
+You wrote **04_AUGUST_2026**; given this audit occurred on **04_SEPTEMBER_2026**, that may be a date typo.
+
+karbytes:
+
+Oops! Thanks for pointing out that mistake I made.
+
+ChatGPT:
+
+You’re welcome. The corrected completion timestamp is:
+
+**6:01 AM Pacific Standard Time on 04_SEPTEMBER_2026.**
