@@ -1,7 +1,7 @@
 /**
  * file: journal_karbytes_05september2026_p0.txt
  * type: plain-text
- * date: 05_SEPTEMBER_2026
+ * date: 06_SEPTEMBER_2026
  * author: karbytes
  * license: PUBLIC_DOMAIN
  */
@@ -26,7 +26,7 @@ A note about the image named virtual_lake_break_easter_egg_inside_chatgpt_karbyt
 
 [item_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/virtual_lake_break_easter_egg_inside_chatgpt_karbytes_05september2026_a0_web_page.png]
 
-The "Virtual Lake Break" CSS-highlighted plain-text character block in the web page named chatgpt_karbytes_05september2026_a0 exists in order to make reading that extremely lengthy web page slightly easier and more enjoyable by providing a colorful and whimsical break from the relative monotony of the (mostly) black and which text column and signifying where some of the most significant passages in that web page are approximately located.
+The "Virtual Lake Break" CSS-highlighted plain-text character block in the web page named chatgpt_karbytes_05september2026_a0 exists in order to make reading that extremely lengthy web page slightly easier and more enjoyable by providing a colorful and whimsical break from the relative monotony of the (mostly) black and white text column and signifying where some of the most significant passages in that web page are approximately located.
 
 (The "Virtual Lake Break" is loosely based off of the marshy east part of Lake Chabot (which is a part of the Big Green Thing within walking distance of The Burrow (i.e. the current location of karbytes' dark web server room and dormitory))).
 
