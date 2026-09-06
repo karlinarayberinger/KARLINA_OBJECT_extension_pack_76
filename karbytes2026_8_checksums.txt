@@ -26,7 +26,7 @@ file_8: KARLINA_OBJECT_APPS-main.zip // SHA-256: ef6c27b9ff75bc56b23e881d1766791
 
 file_9: KARBYTES_BLOG_APPS-main_29march2026.zip // SHA-256: f3d8d63f7e96a14e1ef5cf54f10c6dc79ef8459c71766bae43667cf2fe2111a2
 
-file_10: KARLINA_OBJECT_extension_pack_76-main_06september2026.zip // SHA-256: ee3ffe6bf779922850d2510220790d86f3ca6cf98a17334c3d86bcc1875a9219
+file_10: KARLINA_OBJECT_extension_pack_76-main_06september2026.zip // SHA-256: 247061dbe314e390e5b4196ba94e60de9b4b3f74c02ebf46af583554e292318b
 
 file_11: KARLINA_OBJECT_extension_pack_67-main.zip // SHA-256: 3f387accb802700227a48426e75f0e427f1a5e1cdf860c66c0b2094d99d88da3
 
