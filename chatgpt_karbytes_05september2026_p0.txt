@@ -5442,3 +5442,306 @@ karbytes:
 Download and view the entire video at the following Uniform Resource Locator. Watch every frame of that video in the order they are supposed to be played and also listen to the entire audio track in conjunction with that progression of video frames such that you, as closely as possible, generate a subjective experience resembling what a human viewer of that video might experience (in terms of observed audiovisual phenomena). Then describe in maximal detail what you observed. If there was any spoken content that you detected, then provide your transcription of that detected speech. For any voice you detect, describe qualities of that voice such as loudness, pitch, timbre, and rhythm. 
 
 video_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/instagram_ajplus_palestine_olive_trees_removed_by_israel_04september2026.mp4
+
+ChatGPT:
+
+[Worked for 23m 30s]
+
+I downloaded the [source MP4](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/instagram_ajplus_palestine_olive_trees_removed_by_israel_04september2026.mp4), decoded all 2,191 frames in their original order, inspected the entire frame sequence—including every transition—and analyzed the complete audio track in synchronization. I cannot literally possess a human viewer’s subjective experience, but the account below is my closest reconstruction from exhaustive frame inspection, speech recognition, subtitle comparison, and audio-signal analysis.
+
+## Technical characteristics
+
+[preformatted_text]
+
+| Property               |                                                             Result |
+| ---------------------- | -----------------------------------------------------------------: |
+| File size              |                                                   22,128,748 bytes |
+| SHA-256                | `96b5e868e1adbcc1b5150c763144ba61d8f4429283cdf1462c903598ac77f0a0` |
+| Container duration     |                                                     87.764 seconds |
+| Visible-video duration |                                                     87.640 seconds |
+| Video                  |                          H.264 High Profile, 720×1280, progressive |
+| Frame rate             |                                                     Exactly 25 fps |
+| Total frames           |                                                              2,191 |
+| Audio                  |                                             HE-AAC, stereo, 48 kHz |
+| Overall loudness       |                                           Approximately −14.1 LUFS |
+| Loudness range         |                                               Approximately 6.9 LU |
+| True peak              |                                            Approximately −0.7 dBFS |
+
+[end preformatted_text]
+
+Every video frame decoded successfully; I found no dropped, corrupt, frozen, or misordered frame region. The English words are burned into the image—there is no separate subtitle or closed-caption stream.
+
+The format is a conventional 9:16 social-media news reel. An AJ+ logo remains near the upper-right corner. Most explanatory text is black sans-serif type inside white rounded rectangles with a narrow yellow accent. Interview translations instead use white letters over translucent charcoal-grey boxes. Several passages use a horizontal split screen, separated by a thin yellow line: a speaking landowner occupies the top while machinery or damaged farmland occupies the bottom.
+
+## Complete visual and audiovisual progression
+
+### 0:00–0:02.92 — The woman and the living tree
+
+The first frame immediately places the viewer inside dense olive foliage. Grey-green narrow leaves, thin interwoven branches, clusters of unripe green olives, and a thick, old, deeply textured trunk fill almost every part of the image. The dry ground visible through gaps in the vegetation is pale brown and stony.
+
+A Palestinian woman is crouched or seated close behind the trunk. She wears a deep burgundy-purple headscarf and a black-and-white patterned long-sleeved garment. White cords or straps cross parts of her scarf. Her body is partly concealed by leaves. She wraps herself against the trunk and holds one hand close to her mouth and the bark; at moments her face appears to press against either her hand or the tree. The exact contact is partly obscured, so I cannot determine whether she kisses the tree, but the posture is intimate and visibly distressed rather than casual.
+
+A large yellow text panel characterizes this as her final embrace with her olive trees. The right edge credits the source account `@shathahanaysha`; an underlying label near the lower left has been deliberately blurred. The camera is handheld but comparatively steady.
+
+The soundtrack begins immediately with an ominous, low-frequency, rhythmically pulsing editorial bed. There is also broadband environmental texture consistent with outdoor or machinery sound. I detected no reliably intelligible words from this woman. If she makes a quiet distressed vocalization, it is too deeply mixed with the soundtrack and environmental noise for responsible transcription.
+
+### 0:02.92–0:08.28 — Human grief above, machinery below
+
+The frame divides horizontally. The woman remains in the upper half, still pressed among the branches and trunk. She raises or repositions her head slightly while retaining contact with the tree.
+
+The lower half shows a large hydraulic digging bucket and linkage forcing its way through dense olive vegetation. The bucket lowers, shifts and rises; leaves and branches bend and shake around it, and dust accumulates near the ground. A red caption completes the opening proposition by saying Israel will rip the trees out.
+
+The yellow divider makes the juxtaposition unusually literal: the person caring for the tree occupies one visual world and the metal instrument destroying trees occupies the other. The machine’s angular, dirt-covered steel surfaces contrast with the tree’s intricately branching organic structure.
+
+The score continues, with machinery-like low rumble and scraping texture mixed beneath it. There is still no intelligible speech.
+
+### 0:08.28–0:11.00 — Establishing the reported place and event
+
+The split screen disappears. A large tan or dusty olive-colored wheeled engineering vehicle/front loader sits or moves through a dry olive field. It has enormous black tires, an enclosed cab, and a broad front bucket. Low hills, scattered trees and a few pale structures occupy the distance beneath a cloudless blue sky.
+
+A locator appears at upper left:
+
+* Arraba, West Bank
+* September 2, 2026
+
+A white caption says the Israeli military uprooted dozens of olive trees near Arraba in the occupied West Bank. This is an editorial assertion supplied by the reel; the vehicle itself carries no clearly readable identifying insignia in these frames.
+
+The vehicle moves slowly while the camera holds a medium-wide view. Earth and foliage shift around the bucket.
+
+### 0:11.00–0:13.64 — Dust and mechanical force
+
+A closer view shows the loader’s wheel, chassis and bucket pushing through the field. Dust rises around the lower machinery, partially veiling trees behind it. The earthmover appears weighty and slow rather than fast, but the vegetation yields abruptly whenever contacted.
+
+The reel calls the machinery a bulldozer. More precisely, the montage contains at least two kinds of earthmoving apparatus: this massive wheeled front-loader-like vehicle and, later, a long hydraulic excavator arm with a digging bucket.
+
+The engine/machinery texture is most plausible here, although the continuous music bed prevents clean separation of natural and added sound.
+
+### 0:13.64–0:17.96 — The destroyed tree
+
+The picture cuts to a close view of a thick, pale-barked olive trunk and branches lying at an unnatural angle. The upper end is ragged, blunt and torn. Leafy limbs form a chaotic heap around it. A thin utility wire crosses the distant blue sky.
+
+Text says this happened only weeks before the annual Palestinian olive harvest, identified as *mawsim al-zaytoun*. The shot is largely static apart from slight handheld movement and leaves shifting.
+
+### 0:17.96–0:20.96 — Harvest as communal practice
+
+The destruction is replaced by footage of people harvesting from a standing olive tree. One person in a white shirt reaches from higher within or beside the canopy; another in a teal garment stretches upward from below. Their arms move repeatedly among the branches, causing clusters of leaves to sway.
+
+Text describes the harvest as an old Palestinian tradition that joins families and communities. Bright sunlight and active human movement make this sequence feel temporarily more open and alive than the preceding machinery footage.
+
+### 0:20.96–0:23.28 — Fruit and hands
+
+A close, shaky view moves through glossy leaves and clusters of green olives. A hand reaches into the canopy, touching or collecting the fruit. Focus fluctuates because branches pass near the lens.
+
+At approximately 23.12 seconds, Khalil al-Fari’s Arabic voice begins slightly before his face appears. This is a small audio “J-cut”: the testimony enters over the last fraction of a second of harvest imagery.
+
+### 0:23.28–0:26.20 — Khalil al-Fari begins speaking
+
+The reel identifies the speaker as Khalil al-Fari, a Palestinian landowner. He is an adult man with short, tightly curled black hair, dark eyebrows and close facial stubble. He wears a white collared button-up shirt; a blue-and-black pen is clipped into his chest pocket, and a small lavalier microphone is attached near the center of his shirt.
+
+He stands in harsh midday sunlight. The orchard and machinery are defocused behind him. He initially looks toward the camera or interviewer, then turns his head to indicate the land beside him. His brow is tense and his mouth movements are emphatic.
+
+He opens with a rhetorical question about what the olive trees could possibly have done to deserve this treatment.
+
+### 0:26.20–0:31.00 — Testimony paired with uprooting
+
+The screen splits. Khalil remains above, frequently in profile, extending an open hand toward the damaged land. Below, a long hydraulic excavator arm reaches into an olive tree. Its bucket closes or presses among the branches, shifts downward and drags vegetation. Foliage shudders under the mechanical movement.
+
+Khalil says that seeing a bulldozer uproot the trees breaks their hearts. His voice grows more forceful as the sentence progresses. The lower image provides direct illustrative accompaniment to his words, although the reel does not independently establish that this precise machinery shot was recorded at the same instant as his interview.
+
+### 0:31.00–0:35.40 — Human lifespan versus tree lifespan
+
+The lower half changes to a heap of torn foliage and a thick damaged trunk. Khalil faces more toward the camera. He enumerates trees planted approximately 50, 60 and 70 years earlier.
+
+His gestures and speech rhythm make the ages feel less like an abstract statistic than accumulated family time. The excavation bucket remains faintly visible in the background of his own shot.
+
+### 0:35.40–0:37.56 — Severed trunks
+
+The lower half cuts to several heavy, pale trunks or major limbs lying across a dark bed of leaves. Their ends are fractured or cut. Khalil says that he and his brothers have worked there throughout their lives.
+
+### 0:37.56–0:41.56 — Livelihood
+
+The lower half changes again to a wider patch of reddish soil where an entire uprooted or flattened olive tree lies horizontally. Low hills and surviving vegetation extend into the distance. Khalil turns and gestures toward it.
+
+He finishes by identifying the grove as their source of income. His voice ends at approximately 41.4 seconds, just before the visual cut.
+
+### 0:41.56–0:44.20 — Ancient living trees
+
+The interview disappears. Backlit green olives hang from a branch against a pale sky. The olives and leaves move slightly, and shallow focus makes the background soft.
+
+The reel says Palestinians care for some of the world’s oldest olive trees and claims that some are as old as 4,000 years. No citation is shown within the video.
+
+### 0:44.20–0:46.92 — Fruit held in human hands
+
+A pair of weathered hands cups a collection of small green olives. Several retain short stems or leaves. The fingers shift gently, rolling or displaying the fruit. The previous age claim remains on screen.
+
+### 0:46.92–0:48.84 — Orchard, people and landscape
+
+A high or elevated view shows people working around a mature olive tree on a hillside. One person in a bright red shirt stands prominently in the foreground; others in darker or blue-purple clothing are partly hidden by the tree. A dark harvesting sheet or net lies below. The opposite hillside is patterned with many small trees.
+
+The text describes olive trees as representations of Palestinian resilience and attachment to land.
+
+### 0:48.84–0:51.64 — Reaching into the canopy
+
+The camera returns to a close view of hands moving among olive branches. Forearms repeatedly enter and leave the frame; leaves flutter and obscure the fruit. The same resilience-and-land framing remains.
+
+### 0:51.64–0:54.84 — Scale of cultivation
+
+A broad elevated view reveals an extensive orchard: small grey-green crowns repeat in rough rows over reddish soil. Tiny people and a large dark harvest sheet are visible near the lower portion.
+
+The video asserts that Palestinians care for approximately ten million olive trees across the West Bank and Gaza.
+
+### 0:54.84–0:57.28 — Sorting the harvest
+
+Hands move quickly through green olives gathered on shiny black fabric, sacks or harvesting material. Leaves and small twigs are mixed with the fruit. The caption says more than 100,000 families depend on olives for their livelihoods.
+
+### 0:57.28–0:61.84 — Umm Ahmed al-Fari
+
+The next landowner begins speaking at virtually the same moment as the cut. She is identified as Umm Ahmed al-Fari, also a Palestinian landowner.
+
+She appears to be an older woman. She wears a white hijab, a black outer garment and a vertical decorative panel patterned with grey-and-white concentric circles. She faces the interviewer while extending one arm emphatically toward the surrounding field. A younger man in a black shirt is partly visible behind her. Dust and the wheeled loader can be seen farther back.
+
+The lower half shows a bald or closely shaven man standing in shadow behind a rigid metal-grid fence. He gestures toward a loader moving in the sunlit ground outside.
+
+Umm Ahmed says the olive field is shared by roughly 30–40 families.
+
+### 0:61.84–0:66.00 — Watching from behind the barrier
+
+Umm Ahmed continues in the upper half. The lower view widens: approximately three people stand as dark silhouettes inside a roofed, wire-fronted structure, looking out at an excavator arm or loader operating beyond the grid.
+
+She explains that the families make their living from the field and wait for the harvest to earn money. Her delivery is continuous and emotionally insistent.
+
+### 0:66.00–0:69.36 — The stripped field
+
+The lower image becomes a wide view of bare, freshly disturbed brown soil. Felled trees or large branches are scattered in rows; several people move among them. The distant horizon contains surviving orchards and buildings.
+
+The English translation says Israeli forces uprooted and took everything. Notably, the words identifying Israeli forces appear in square brackets, marking them as an editorial clarification rather than necessarily a literal word-for-word part of the audible Arabic.
+
+### 0:69.36–0:72.52 — Settlers and roads
+
+Below Umm Ahmed, several people work around a fallen trunk. A person in a long black garment stands nearby while another in a dark-purple top bends, pulls or manipulates part of the wood. A densely built hillside lies in the far distance.
+
+Umm Ahmed attributes the destruction to making more space for settlers and their roads. Her intelligible speech ends at approximately 72.28 seconds; the split-screen image continues for roughly another quarter-second.
+
+### 0:72.52–0:75.16 — Numerical damage claim
+
+A close-up isolates the thick, jagged top of a destroyed olive trunk. Rough reddish-brown inner wood is exposed, with shattered pieces projecting from the break.
+
+The reel states that Israel uprooted 2,559 Palestinian olive trees between June 23 and July 3, 2026, and assigns approximately $11.7 million in damage to that period. The video itself supplies no visible footnote or source for the calculation.
+
+### 0:75.16–0:77.68 — Empty, rutted land
+
+The same numerical statement remains while the picture cuts to a broad, comparatively empty field. Parallel machinery tracks or disturbed furrows curve through bare soil. Surviving trees form a narrow green edge before distant hills and buildings.
+
+The visual transformation from densely branching orchard to exposed earth is one of the reel’s starkest contrasts.
+
+### 0:77.68–0:79.40 — Road and vehicles
+
+A shaky, highly zoomed view looks down upon a narrow road bordered by dry vegetation and scattered trees. Several vehicles—including white trucks or utility vehicles—and small groups of people occupy the road.
+
+The caption broadens the report beyond the individual grove, saying Israel is accelerating settlement expansion in the occupied West Bank and explicitly calling that expansion illegal.
+
+### 0:79.40–0:81.48 — Armed personnel and construction
+
+At least three dark-uniformed, armed people stand on a dry rocky incline beside protruding reinforcement bars and what appears to be a recently formed concrete surface. One person has much of the face covered; long firearms are visible.
+
+Their exact organization cannot be read confidently from the pixels. The edit places them within the discussion of Israeli settlement expansion, but the image by itself does not establish their identity, the date or the precise construction project.
+
+### 0:81.48–0:83.68 — Displacement imagery
+
+A low-resolution handheld shot peers across a pale wall or ledge toward a damaged area beside a high concrete wall. Trees partly obscure a collection of blankets, mattresses, pink and blue fabric, plastic basins and miscellaneous household belongings. There may be a reclining person among the bedding, but motion blur and foliage prevent certainty.
+
+The on-screen text says 5,900 Palestinians have been displaced by settler violence since 2023.
+
+### 0:83.68–0:85.44 — Canopy and armed figure
+
+The camera moves to a rough roadside or construction-like position where an olive-uniformed armed person sits or stands beneath a small white pop-up canopy. White plastic chairs and a wooden table or desk are visible. Another person may be partly concealed under the canopy.
+
+The displacement statistic remains. Again, the shot’s exact location and relationship to the Arraba destruction are not identified within the reel.
+
+### 0:85.44–0:86.6 — AJ+ glitch transition
+
+The footage abruptly gives way to dark teal horizontal scan lines, red-yellow-blue chromatic separation and fragments of the AJ+ emblem sliding or tearing across the screen. The logo resolves against black. A short electronic/glitch-like sonic accent accompanies the transition.
+
+### 0:86.6–0:87.64 — Credit and silence
+
+The final black card contains the centered AJ+ logo and a small producer credit naming Tsogo Kupa. The soundtrack falls into complete digital silence at approximately 86.78 seconds, leaving the last 0.88 seconds silent.
+
+## Spoken-content transcript and paraphrase
+
+The only clearly intelligible speech consists of two Arabic interview voices. There is no English narrator. Because this is third-party copyrighted documentary material, I can reproduce only a short verbatim excerpt, followed by a complete close paraphrase.
+
+A brief excerpt from the reel’s English translation of Khalil is:
+
+> “What did the olive trees do to them? … it breaks our hearts.”
+
+Complete close paraphrase:
+
+* **23.12–41.40 — Khalil al-Fari:** He asks what harm the olive trees could have caused. He says watching a bulldozer uproot them is heartbreaking. He emphasizes that the trees were planted approximately 50, 60 and 70 years ago. He and his brothers have spent their lives working there, and the grove supplies their livelihood.
+
+* **57.28–72.28 — Umm Ahmed al-Fari:** She says the field belongs collectively to about 30–40 families. Those families depend on it economically and wait for the annual harvest to earn money. She says Israeli forces have now uprooted and taken the trees, and she attributes this to clearing space for settlers and roads serving them.
+
+I detected no reliably transcribable third voice. The opening woman is visible in distress, but no definite lexical statement from her survives clearly enough in the mix to transcribe.
+
+## Voice qualities
+
+### Khalil al-Fari
+
+Khalil is mixed prominently and closely. His 19-second speaking section measures approximately −11.5 LUFS and peaks near −0.7 dBFS, making it substantially louder than Umm Ahmed’s section and slightly louder than the program as a whole.
+
+His pitch is in a low-to-middle adult-male register, rising markedly during the opening rhetorical question and emotionally stressed words. A persistent low musical pulse complicates exact fundamental-frequency measurement, so I would not attach a single precise hertz value to his voice.
+
+His timbre is firm, forward and slightly rough or compressed. There is a mildly nasal edge, but the dominant impression is tightness and emotional pressure rather than softness. His consonants are sharply articulated. His rhythm alternates between short declarative units and faster outpourings; he pauses around the tree ages, then gathers speed while describing family labor and income. The delivery sounds controlled enough to remain intelligible but visibly and audibly strained.
+
+### Umm Ahmed al-Fari
+
+Her combined speech-and-score section measures approximately −17.2 LUFS and peaks near −4.5 dBFS. She is therefore around five to six loudness units quieter than Khalil in the final mix. Her recording also feels more environmentally exposed and less close-miked.
+
+Her voice occupies a middle-to-higher adult-female register, with a slightly wavering pitch contour. The timbre is grainier, thinner and more weathered than Khalil’s, with a plaintive, sometimes almost keening edge. She speaks in flowing phrases rather than sharply separated sentences. Repetition and elongated stressed syllables intensify her delivery. Her volume and pitch rise when discussing the families’ dependence on the harvest and again when describing the uprooting and roads.
+
+### Music and environmental sound
+
+A low, tense instrumental pulse runs through nearly the entire report. Its most salient beat-like periodicity is approximately 82 beats per minute. It contains sustained bass energy, restrained electronic/percussive attacks and a dark atmospheric layer rather than a memorable melody. It functions as an emotional news-documentary score.
+
+Machinery rumble, scraping or foliage noise appears to be retained at points, especially during the early earthmover shots, but it is blended with the score. Interviews are centered over that bed. The stereo channels are related but not identical, with a correlation of approximately 0.67. There are no meaningful silent passages until the final credit.
+
+## On-screen argument, separated from direct observation
+
+The reel makes the following claims in sequence:
+
+* Israeli military machinery uprooted dozens of olive trees near Arraba shortly before the annual harvest.
+* Olive harvesting is a longstanding communal Palestinian tradition.
+* Some Palestinian olive trees are claimed to be as old as four millennia.
+* Roughly ten million olive trees are tended in the West Bank and Gaza.
+* More than 100,000 families are said to rely on them economically.
+* The al-Fari field reportedly supported 30–40 families.
+* The reel reports 2,559 trees uprooted during an eleven-day period in June–July 2026, with approximately $11.7 million in damage.
+* It connects this destruction to expanding Israeli settlements and roads.
+* It reports 5,900 Palestinians displaced by settler violence since 2023.
+
+The footage visibly establishes machinery operating among olive trees, uprooted trunks, distressed landowners, damaged fields, harvest activity, armed personnel, vehicles and displacement-associated imagery. It does **not**, by itself, establish the numerical totals, financial estimate, age of particular trees, identities of every armed person, or direct causal connection between every late montage shot and the Arraba event. Those are editorial assertions.
+
+A contemporaneous report independently identifies Khalil al-Fari and the al-Fari family’s destroyed groves at Arraba, supporting the reel’s basic person/place/event identification, although it does not thereby authenticate every statistic used in this particular edit. [Al Jazeera’s September 5 report](https://www.aljazeera.com/features/2026/9/5/israeli-campaign-of-west-bank-destruction-moves-on-to-regions-food-basket) provides that broader context. The reel was also cross-posted by [AJ+ on Threads](https://www.threads.com/@ajplus/post/Dc1M_WjHI06).
+
+## My subjective audiovisual impression
+
+The opening is the emotional nucleus. Before the report supplies geography, statistics or political explanation, it gives the viewer the unmistakably bodily image of a woman wrapping herself around a tree. The branching canopy partly hides her, making her appear almost embedded within the organism rather than merely standing beside agricultural property. The subsequent split screen then converts a verbal claim into a brutal visual equation: embrace above, steel bucket below.
+
+The montage repeatedly contrasts two temporal scales. Human beings speak in lifetimes—50 years, 60 years, 70 years, generations of brothers and families—while machinery can overturn the physical result in seconds. The video’s claim about 4,000-year-old trees enlarges that contrast further, placing the earthmover’s momentary force against cultural and ecological continuity.
+
+The most effective visual construction is the recurring split screen. It prevents the testimonies from becoming detached talking heads. Khalil’s grief remains physically adjacent to the bucket; Umm Ahmed’s account remains adjacent to people watching machinery through a metal barrier and to the stripped field. The yellow line technically separates the pictures while the edit insists that they belong to one causal story.
+
+The living-olive passages function almost as memories or counterfactuals: green fruit in hands, people reaching into leaves, nets beneath trees, families working together. They show what a grove does before the reel returns to broken trunks and bare soil. The transition from intricate foliage to exposed ruts has the sensation of information being erased: biological complexity, recurring seasonal labor, income, family history and place-based knowledge all collapse into flattened brown ground.
+
+Khalil’s rhetorical question personifies the trees by casting them as innocent victims incapable of having committed an offense. That is emotionally powerful but also openly persuasive. This is advocacy journalism, not an evidentially self-contained investigation. It contains no Israeli response, no visible source notes for its large numerical claims and no explanation of whether every later clip came from Arraba or serves as broader illustrative footage.
+
+The low pulse gives the report a sense of inexorability. Because its bass energy resembles distant machinery, the added music and the earthmover’s natural sound partially fuse. Even when the screen shows green olives or hands harvesting, that pulse prevents the imagery from feeling peaceful; the destruction remains sonically anticipated.
+
+The final expansion from one family’s grove to armed personnel, construction, settlement activity and displacement makes the piece politically broader but visually less specific. The opening and interviews have identifiable people and land; the closing footage is shakier, more compressed and less geographically anchored. Emotionally, it enlarges the event into a systemic accusation. Evidentially, it asks the viewer to rely more heavily on AJ+’s editorial framing.
+
+My overall experience is of a concise lament structured around *uprooting* in both its literal and figurative senses. The trees are presented simultaneously as living organisms, crops, family inheritance, economic infrastructure, cultural ritual and embodiments of continued presence on land. Consequently, the act of removing them is made to signify much more than ordinary property damage.
+
+karbytes:
+
+Download and view the entire video at the following Uniform Resource Locator. Watch every frame of that video in the order they are supposed to be played and also listen to the entire audio track in conjunction with that progression of video frames such that you, as closely as possible, generate a subjective experience resembling what a human viewer of that video might experience (in terms of observed audiovisual phenomena). Then describe in maximal detail what you observed. If there was any spoken content that you detected, then provide your transcription of that detected speech. For any voice you detect, describe qualities of that voice such as loudness, pitch, timbre, and rhythm. 
+
+video_url: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/instagram_worldbyt1_nepal_flood_28august2026.mp4
