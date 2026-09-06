@@ -1,0 +1,176 @@
+/**
+ * file: chatgpt_karbytes_06september2026_p0.txt
+ * type: plain-text
+ * date: 06_SEPTEMBER_2026
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following is a plain-text transcript of a conversation between karbytes and ChatGPT 5.6 Sol (Max Effort) (Work Mode) which took place between 11:59PM Pacific Standard Time on 05_SEPTEMBER_2026 and 11:59PM Pacific Standard Time on 06_SEPTEMBER_2026.
+
+* * *
+
+karbytes:
+
+Examine the following micro-directory web page to determine whether or not each hyperlink which is supposed to link to a raw GitHub file inside of the GitHub repository named KARLINA_OBJECT_extension_pack_76 actually links to the correct file (and ensure that every file inside of that GitHub repository has a corresponding full-URL hyperlink on that micro-directory web page):
+
+https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_76/
+
+Also verify whether or not every hyperlink on that micro-directory web page whose visible text is simply an asterisk enclosed in parentheses links to the correct web page.
+
+Finally, point out any discrepancies you notice while completing the requested task.
+
+ChatGPT:
+
+[Worked for 18m 22s]
+
+Audit completed against the live page and repository state at **2026-09-06 11:53 UTC**.
+
+## Results
+
+[preformatted_text]
+
+| Check                                                    | Result |
+| -------------------------------------------------------- | -----: |
+| Files in the repository’s `main` branch                  |    126 |
+| Corresponding raw-file hyperlinks on the micro-directory |    126 |
+| Missing repository files                                 |      0 |
+| Links targeting nonexistent repository files             |      0 |
+| Visible URL differing from its underlying `href`         |      0 |
+| Duplicate raw-file hyperlinks                            |      0 |
+| Unreachable raw-file endpoints                           |      0 |
+| `(*)` hyperlinks                                         |     46 |
+
+[end preformatted_text]
+
+The [micro-directory](https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_76/) therefore provides complete, one-to-one coverage of the [repository](https://github.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76) at commit [`53fc03a`](https://github.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/commit/53fc03af82e01fdffe461ee952be6abfcbaa3dfd).
+
+All 126 raw links:
+
+* use the correct repository, branch, capitalization, and filename;
+
+* display the complete URL as their visible text;
+
+* have visible text exactly equal to the underlying destination;
+
+* resolve successfully to the corresponding repository file.
+
+## Asterisk links
+
+The 46 `(*)` links comprise:
+
+* 40 WordPress pages;
+
+* 4 GitHub Pages sites;
+
+* 2 `.onion` pages.
+
+All 44 clearnet destinations resolved successfully, without an incorrect redirect, and their titles/slugs match the immediately preceding `unlisted_web_page_*.html` file.
+
+The two `.onion` addresses exactly match the addresses declared within their paired repository files. Both are structurally valid Tor v3 addresses with valid encoded checksums. Their live availability could not be tested without Tor, so their destination identity is verified but their current server availability is not.
+
+## Discrepancy found
+
+The `(*)` for `unlisted_web_page_karbytes_wayback_machine_saves_precision_batches_extension_1.html` points to the **correct website**, but that deployed website is one revision behind its repository copy:
+
+* [Repository copy](https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/unlisted_web_page_karbytes_wayback_machine_saves_precision_batches_extension_1.html): dated **05_SEPTEMBER_2026**, 84,880 bytes, and includes `sub-index_page_215` through `sub-index_page_218`.
+
+* [Deployed GitHub Pages index](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/): dated **04_SEPTEMBER_2026**, 83,448 bytes, and stops at `sub-index_page_214`.
+
+The omitted pages [215](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_215.html), [216](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_216.html), [217](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_217.html), and [218](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_218.html) are themselves live.
+
+No other hyperlink-address discrepancies were found. Ordinary WordPress rendering transformations—such as lazy-loading attributes and typographic punctuation substitutions—were present in a few page bodies but did not alter their hyperlink destinations.
+
+karbytes:
+
+What I would like you to do now (just to be extra thorough with the interim auditing of the KARLINA_OBJECT_extension_pack_76 micro-directory) is the following…
+
+On the following web page, verify whether or not the sub-index pages whose index numbers are numbered 210 to 218 contain all of the aforementioned hyperlinks with the one exception being that the links may appear in a different order than how they appear in the respective micro-directory (i.e. KARLINA_OBJECT_extension_pack_75) and each of the sub-index hyperlinks display the full URL they point to as their visible components:
+
+https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/
+
+ChatGPT:
+
+[Worked for 6m 21s]
+
+Yes—using the previous audit’s defined set for `KARLINA_OBJECT_extension_pack_76`, sub-index pages **210–218 collectively contain every required hyperlink**.
+
+The comparison was performed at **2026-09-06 12:21 UTC**, with ordering ignored.
+
+## Coverage results
+
+The required set consists of:
+
+* 126 raw GitHub file URLs;
+
+* 46 public-page URLs represented by `(*)` in the micro-directory;
+
+* plus the micro-directory’s own URL, which appears on page 210.
+
+That produces **173 distinct expected URLs**. Pages 210–218 contain exactly those **173 distinct URLs**, with:
+
+* 0 missing URLs;
+
+* 0 incorrect or substituted URLs;
+
+* 0 unexpected distinct URLs;
+
+* every hyperlink expressed as an absolute `http://` or `https://` URL;
+
+* visible text exactly equal to the underlying `href` for all 175 hyperlink occurrences.
+
+[preformatted_text]
+
+| Sub-index                                                                                                                       | Hyperlink occurrences | Distinct URLs | Full visible URL equals `href` |
+| ------------------------------------------------------------------------------------------------------------------------------- | --------------------: | ------------: | ------------------------------ |
+| [210](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_210.html) |                    21 |            21 | Pass                           |
+| [211](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_211.html) |                    21 |            21 | Pass                           |
+| [212](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_212.html) |                    21 |            21 | Pass                           |
+| [213](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_213.html) |                    20 |            20 | Pass                           |
+| [214](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_214.html) |                    21 |            21 | Pass                           |
+| [215](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_215.html) |                    22 |            20 | Pass, with duplicates          |
+| [216](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_216.html) |                    22 |            22 | Pass                           |
+| [217](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_217.html) |                    21 |            21 | Pass                           |
+| [218](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_218.html) |                     6 |             6 | Pass                           |
+
+[end preformatted_text]
+
+## Discrepancies
+
+1. **Duplicate pair on sub-index page 215**
+
+These two URLs each appear twice:
+
+[preformatted_text]
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_76/main/unlisted_web_page_chatgpt_karbytes_03september2026_a10.html
+
+https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_03september2026_a10/
+
+[end preformatted_text]
+
+They occupy hyperlink positions 3 and 5, and 4 and 6, respectively. Nothing is missing because of this duplication.
+
+2. **Pages 215 and 216 exceed the index’s stated 21-link maximum**
+
+The [parent index](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/) says each sub-index page contains at most 21 hyperlinks.
+
+* Page 215 contains 22 occurrences because of the duplicated pair.
+
+* Page 216 contains 22 distinct hyperlinks.
+
+3. **The parent index still does not link to pages 215–218**
+
+The four pages exist and respond successfully when opened directly, but the parent index currently stops at page 214. Thus:
+
+* pages 210–214 are discoverable from the parent index;
+
+* pages 215–218 are not presently discoverable from it.
+
+4. **The `extension_pack_75` reference appears to be a typo**
+
+Pages [198](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_198.html) through [209](https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/sub-index_page_209.html) identify themselves as the twelve batches for `KARLINA_OBJECT_extension_pack_75`.
+
+Pages 210–218 explicitly identify themselves as the nine batches for `KARLINA_OBJECT_extension_pack_76`. Therefore, I compared pages 210–218 with the pack-76 micro-directory, consistent with the rest of your request.
+
+One scope note: the complete coverage finding applies to the 126 raw-file URLs and 46 `(*)` destinations audited previously. The sub-index collection does not reproduce the micro-directory’s other contextual links, including its separate `ASSOCIATED_WEB_PAGE_URL` for `karbytes_code_continues`, Wikipedia references, repository homepage, Wayback form, introductory image, and footer license link.
